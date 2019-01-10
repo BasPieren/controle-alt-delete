@@ -1,4 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* ----------- COLORS ----------- */
+
+/*
+  Black: #2d2d2d
+
+*/
+
+/* --------------------- GLOBAL CLASSES --------------------- */
+
 *{
   margin: 0;
   padding: 0;
+}
+
+main{
+  padding: 0 1.2em;
+  background-image: url(../images/home-placeholder-background.jpg);
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/* --------------------- HOME --------------------- */
+
+#cad-home-page{
+  padding: 0 8em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#cad-home-page > h1{
+  opacity: 0;
+  animation: topSlideIn 1s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+#cad-home-page > h3{
+  margin-top: auto;
+  opacity: 0;
+  animation: topSlideIn 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: forwards;
+}
+
+#cad-home-page > p{
+  opacity: 0;
+  animation: bottomSlideIn 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: forwards;
+}
+
+#cad-home-page > p:last-child{
+  margin: auto 0 1.2em 0;
+  opacity: 0;
+  animation: topSlideIn 1s;
+	animation-delay: 2.5s;
+	animation-fill-mode: forwards;
+}
+
+/* --------------------- KEYFRAMES --------------------- */
+
+@keyframes topSlideIn {
+
+	0%   { opacity: 0; transform: translate(0, -45%);}
+ 	100% { opacity: 1; transform: translate(0, 0);}
+
+}
+
+@keyframes leftSlideIn {
+
+	0%   { opacity: 0; transform: translate(-20%, 0);}
+ 	100% { opacity: 1; transform: translate(0, 0);}
+
+}
+
+@keyframes rightSlideIn {
+
+	0%   { opacity: 0; transform: translate(60%, 0);}
+ 	100% { opacity: 1; transform: translate(0, 0);}
+
+}
+
+@keyframes bottomSlideIn {
+
+	0%   { opacity: 0; transform: translate(0, 45%);}
+ 	100% { opacity: 1; transform: translate(0, 0);}
+
 }
