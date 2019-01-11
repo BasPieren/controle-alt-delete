@@ -24,6 +24,8 @@ main{
 }
 
 section{
+  min-height: 100vh;
+  display: flex;
   text-align: center;
 }
 
@@ -37,7 +39,7 @@ h1{
 
 h3{
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
@@ -49,25 +51,35 @@ p{
   color: #ffffff;
 }
 
+.cad-horizontal-line{
+  display: block;
+  margin: 0 auto;
+  width: 2px;
+  height: 150px;
+  background-color: #ffffff;
+}
+
 /* --------------------- HOME --------------------- */
 
-#cad-home-page{
+#cad-page-1{
   padding: 0 8em;
-  height: 100vh;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-#cad-home-page > h1{
+#cad-page-1 > header{
+  margin-top: auto;
+}
+
+#cad-page-1 > header > h1{
   opacity: 0;
   animation: topSlideIn 1s;
 	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
 }
 
-#cad-home-page > h3{
+#cad-page-1 > header > h3{
   margin-top: auto;
   opacity: 0;
   animation: topSlideIn 1s;
@@ -75,19 +87,48 @@ p{
 	animation-fill-mode: forwards;
 }
 
-#cad-home-page > p{
+#cad-page-1 > p{
+  margin: auto 0;
   opacity: 0;
   animation: bottomSlideIn 1s;
 	animation-delay: 1.5s;
 	animation-fill-mode: forwards;
 }
 
-#cad-home-page > p:last-child{
-  margin: auto 0 1.2em 0;
+#cad-page-1 > footer{
+  margin-top: auto;
+}
+
+.cad-scroll-indicator{
+  margin-bottom: 1em;
   opacity: 0;
-  animation: topSlideIn 1s;
-	animation-delay: 2.5s;
-	animation-fill-mode: forwards;
+  animation: topSlideIn 1s!important;
+	animation-delay: 2.5s!important;
+	animation-fill-mode: forwards!important;
+}
+
+#cad-page-1 > footer > .cad-horizontal-line{
+  opacity: 0;
+  animation: bottomSlideIn 1s!important;
+	animation-delay: 2.5s!important;
+	animation-fill-mode: forwards!important;
+}
+
+/* --------------------- PAGE 2 --------------------- */
+
+#cad-page-2{
+  opacity: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#cad-page-2 > h3{
+  margin: 1em 0 0 0;
+}
+
+#cad-page-2 > img{
+  max-width: auto;
+  height: 500px;
 }
 
 /* --------------------- KEYFRAMES --------------------- */
