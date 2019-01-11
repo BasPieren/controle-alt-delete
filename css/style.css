@@ -15,12 +15,7 @@
 }
 
 main{
-  padding: 0 1.2em;
-  background-image: url(../images/home-placeholder-background.jpg);
-  background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+  padding: 0 0.5em;
 }
 
 section{
@@ -31,38 +26,93 @@ section{
 
 h1{
   font-family: 'Open Sans', sans-serif;
-  font-size: 8em;
+  font-size: 2em;
   font-weight: 800;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #2d2d2d;
 }
 
 h3{
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  font-size: 0.8em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #2d2d2d;
 }
 
 p{
   font-family: 'Open Sans', sans-serif;
+  font-size: 0.7em;
   font-weight: 300;
-  color: #ffffff;
+  color: #2d2d2d;
 }
 
 .cad-horizontal-line{
   display: block;
   margin: 0 auto;
-  width: 2px;
-  height: 150px;
-  background-color: #ffffff;
+  width: 1px;
+  height: 100px;
+  background-color: #2d2d2d;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+  h1{
+    font-size: 2.5em;
+  }
+
+  h3{
+    font-size: 1em;
+  }
+
+  p{
+    font-size: 0.9em;
+  }
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+  h1{
+    font-size: 3em;
+  }
+
+  h3{
+    font-size: 1.2em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+  h1{
+    font-size: 4em;
+  }
+
+  h3{
+    font-size: 1.6em;
+  }
+
+  p{
+    font-size: 1.4em;
+  }
+
 }
 
 /* --------------------- HOME --------------------- */
 
 #cad-page-1{
-  padding: 0 8em;
+  padding: 0 1em;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -72,27 +122,12 @@ p{
   margin-top: auto;
 }
 
-#cad-page-1 > header > h1{
-  opacity: 0;
-  animation: topSlideIn 1s;
-	animation-delay: 0.5s;
-	animation-fill-mode: forwards;
-}
-
 #cad-page-1 > header > h3{
   margin-top: auto;
-  opacity: 0;
-  animation: topSlideIn 1s;
-	animation-delay: 1.5s;
-	animation-fill-mode: forwards;
 }
 
 #cad-page-1 > p{
-  margin: auto 0;
-  opacity: 0;
-  animation: bottomSlideIn 1s;
-	animation-delay: 1.5s;
-	animation-fill-mode: forwards;
+  margin: 2em 0 0 0;
 }
 
 #cad-page-1 > footer{
@@ -101,34 +136,108 @@ p{
 
 .cad-scroll-indicator{
   margin-bottom: 1em;
-  opacity: 0;
-  animation: topSlideIn 1s!important;
-	animation-delay: 2.5s!important;
-	animation-fill-mode: forwards!important;
 }
 
-#cad-page-1 > footer > .cad-horizontal-line{
-  opacity: 0;
-  animation: bottomSlideIn 1s!important;
-	animation-delay: 2.5s!important;
-	animation-fill-mode: forwards!important;
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+  #cad-page-1{
+    padding: 0 2em;
+  }
+
 }
 
-/* --------------------- PAGE 2 --------------------- */
+/* --- BREAKPOINT 2 --- */
 
-#cad-page-2{
-  opacity: 0;
-  flex-direction: column;
-  justify-content: space-between;
+@media (min-width:1024px) {
+
+  #cad-page-1{
+    padding: 0 4em;
+  }
+
+  #cad-page-1 > header > h1{
+    opacity: 0;
+    animation: topSlideIn 1s;
+  	animation-delay: 0.5s;
+  	animation-fill-mode: forwards;
+  }
+
+  #cad-page-1 > header > h3{
+    opacity: 0;
+    animation: topSlideIn 1s;
+  	animation-delay: 1.5s;
+  	animation-fill-mode: forwards;
+  }
+
+  #cad-page-1 > p{
+    opacity: 0;
+    animation: bottomSlideIn 1s;
+  	animation-delay: 1.5s;
+  	animation-fill-mode: forwards;
+  }
+
+  .cad-scroll-indicator{
+    margin-bottom: 1em;
+    opacity: 0;
+    animation: topSlideIn 1s!important;
+  	animation-delay: 2.5s!important;
+  	animation-fill-mode: forwards!important;
+  }
+
+  #cad-page-1 > footer > .cad-horizontal-line{
+    opacity: 0;
+    animation: bottomSlideIn 1s!important;
+  	animation-delay: 2.5s!important;
+  	animation-fill-mode: forwards!important;
+  }
+
 }
 
-#cad-page-2 > h3{
-  margin: 1em 0 0 0;
-}
+/* --- BREAKPOINT 3 --- */
 
-#cad-page-2 > img{
-  max-width: auto;
-  height: 500px;
+@media (min-width:1440px) {
+
+  #cad-page-1{
+    padding: 0 8em;
+  }
+
+  #cad-page-1 > header > h1{
+    opacity: 0;
+    animation: topSlideIn 1s;
+  	animation-delay: 0.5s;
+  	animation-fill-mode: forwards;
+  }
+
+  #cad-page-1 > header > h3{
+    opacity: 0;
+    animation: topSlideIn 1s;
+  	animation-delay: 1.5s;
+  	animation-fill-mode: forwards;
+  }
+
+  #cad-page-1 > p{
+    opacity: 0;
+    animation: bottomSlideIn 1s;
+  	animation-delay: 1.5s;
+  	animation-fill-mode: forwards;
+  }
+
+  .cad-scroll-indicator{
+    margin-bottom: 1em;
+    opacity: 0;
+    animation: topSlideIn 1s!important;
+  	animation-delay: 2.5s!important;
+  	animation-fill-mode: forwards!important;
+  }
+
+  #cad-page-1 > footer > .cad-horizontal-line{
+    opacity: 0;
+    animation: bottomSlideIn 1s!important;
+  	animation-delay: 2.5s!important;
+  	animation-fill-mode: forwards!important;
+  }
+
 }
 
 /* --------------------- KEYFRAMES --------------------- */
