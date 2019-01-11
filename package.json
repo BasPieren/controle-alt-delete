@@ -1,0 +1,23 @@
+{
+  "name": "controle-alt-delete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prjs": "prettier --single-quote --no-semi --write js/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BasPieren/controle-alt-delete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BasPieren/controle-alt-delete/issues"
+  },
+  "homepage": "https://github.com/BasPieren/controle-alt-delete#readme",
+  "dependencies": {
+    "prettier": "^1.15.3"
+  }
+}
