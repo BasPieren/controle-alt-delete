@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Staatliches');
 
 /* ----------- COLORS ----------- */
 
 /*
-  Black: #2d2d2d
-
+  Light Blue: #b9e2f8
+  Blue: #6296bc
+  Dark Blue: #055980
+  Black: #051922
+  Yellow: #ffd00a
+  Red: #e73b23
+  Black (Text): #2d2d2d
 */
 
 /* --------------------- GLOBAL CLASSES --------------------- */
@@ -16,35 +21,54 @@
 
 main{
   padding: 0 0.5em;
+  background-color: #055980;
 }
 
 section{
+  padding: 0 1em;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 
+section > header{
+  margin: 1em 0 auto 0;
+}
+
 h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
-  font-weight: 800;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 2.75em;
   text-transform: uppercase;
-  color: #2d2d2d;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  line-height: 1em;
+  color: #ffffff;
+}
+
+h2{
+  font-family: 'Staatliches', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
 }
 
 h3{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.8em;
-  font-weight: 600;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1.25em;
   text-transform: uppercase;
-  color: #2d2d2d;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: #ffffff;
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.7em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
   font-weight: 300;
-  color: #2d2d2d;
+  color: #ffffff;
 }
 
 .cad-horizontal-line{
@@ -52,7 +76,7 @@ p{
   margin: 0 auto;
   width: 1px;
   height: 100px;
-  background-color: #2d2d2d;
+  background-color: #ffffff;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -113,17 +137,10 @@ p{
 
 #cad-page-1{
   padding: 0 1em;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
 
 #cad-page-1 > header{
-  margin-top: auto;
-}
-
-#cad-page-1 > header > h3{
-  margin-top: auto;
+  margin: auto 0;
 }
 
 #cad-page-1 > p{
@@ -163,7 +180,7 @@ p{
   	animation-fill-mode: forwards;
   }
 
-  #cad-page-1 > header > h3{
+  #cad-page-1 > h3{
     opacity: 0;
     animation: topSlideIn 1s;
   	animation-delay: 1.5s;
@@ -237,6 +254,136 @@ p{
   	animation-delay: 2.5s!important;
   	animation-fill-mode: forwards!important;
   }
+
+}
+
+/* --------------------- PAGE 2 --------------------- */
+
+#cad-page-2 > header > h3{
+  margin: 0.5em 0;
+}
+
+#cad-page-2 > img{
+  margin: auto 0;
+  max-height: 250px;
+}
+
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 3 --------------------- */
+
+#cad-page-3 > p{
+  margin-bottom: auto;
+}
+
+
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 4 --------------------- */
+
+#cad-page-4 > img{
+  margin: auto 0;
+  max-height: 250px;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 5 --------------------- */
+
+#cad-page-5 > img{
+  margin: auto 0;
+  max-height: 250px;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
 
 }
 
