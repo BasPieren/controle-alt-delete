@@ -244,7 +244,7 @@ p{
 /* --------------------- PAGE 2 --------------------- */
 
 #cad-page-2 > header > h3{
-  margin: 0.5em 0;
+  margin: 0.35em 0;
 }
 
 #cad-page-2 > img{
@@ -344,6 +344,146 @@ p{
 #cad-page-5 > p{
   margin-bottom: auto;
 }
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 6 --------------------- */
+
+
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 7 --------------------- */
+
+
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 8 --------------------- */
+
+
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 9 --------------------- */
+
+
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 10 --------------------- */
+
+
 
 /* --- BREAKPOINT 1 --- */
 
