@@ -17,7 +17,12 @@ if (minWindowSize.matches) {
     bottom: 100
   })
 
-  var tween2 = TweenMax.to('#cad-page-1 > p', 2, {
+  var tween2 = TweenMax.to('#cad-page-1 > h3', 2, {
+    position: 'relative',
+    bottom: 100
+  })
+
+  var tween3 = TweenMax.to('#cad-page-1 > p', 2, {
     position: 'relative',
     bottom: 100
   })
@@ -27,7 +32,7 @@ if (minWindowSize.matches) {
     duration: 300
   })
 
-  timelineHome.add(tween1).add(tween2)
+  timelineHome.add(tween1).add(tween2).add(tween3)
   sceneHome2
     .setTween(timelineHome)
     .addTo(controller)
