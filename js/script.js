@@ -1,39 +1,39 @@
-const minWindowSize = window.matchMedia('(min-width:1024px)')
+var controller = new ScrollMagic.Controller()
 
-if (minWindowSize.matches) {
-  var controller = new ScrollMagic.Controller()
+// INTRO
+var sceneIntro = new ScrollMagic.Scene({
+  offset: 50,
+  duration: 200
+})
+  .setTween('#cad-intro-page *', { opacity: 0})
+  .addTo(controller)
 
-  var sceneHome = new ScrollMagic.Scene({
-    offset: 10,
-    duration: 500
-  })
-    .setTween('#cad-page-1', { opacity: 0 })
-    .addTo(controller)
+// PAGE 1
+var scenePage1 = new ScrollMagic.Scene({
+  offset: 225,
+  duration: 200
+})
+  .setTween('#cad-page-1 > *', { opacity: 1 })
+  .addTo(controller)
 
-  var timelineHome = new TimelineMax()
+var scenePage1Out = new ScrollMagic.Scene({
+  offset: 650,
+  duration: 200
+})
+  .setTween('#cad-page-1 > *', { opacity: 0 })
+  .addTo(controller)
 
-  var tween1 = TweenMax.to('#cad-page-1 > header', 2, {
-    position: 'relative',
-    bottom: 100
-  })
+// PAGE 2
+var scenePage1 = new ScrollMagic.Scene({
+  offset: 825,
+  duration: 200
+})
+  .setTween('#cad-page-2 > *', { opacity: 1 })
+  .addTo(controller)
 
-  var tween2 = TweenMax.to('#cad-page-1 > h3', 2, {
-    position: 'relative',
-    bottom: 100
-  })
-
-  var tween3 = TweenMax.to('#cad-page-1 > p', 2, {
-    position: 'relative',
-    bottom: 100
-  })
-
-  var sceneHome2 = new ScrollMagic.Scene({
-    offset: 30,
-    duration: 300
-  })
-
-  timelineHome.add(tween1).add(tween2).add(tween3)
-  sceneHome2
-    .setTween(timelineHome)
-    .addTo(controller)
-}
+var scenePage1Out = new ScrollMagic.Scene({
+  offset: 1150,
+  duration: 200
+})
+  .setTween('#cad-page-2 > *', { opacity: 0 })
+  .addTo(controller)
