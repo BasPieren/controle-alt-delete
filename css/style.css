@@ -28,7 +28,7 @@ section{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -52,6 +52,7 @@ h1{
   letter-spacing: 3px;
   line-height: 1em;
   color: #8cb3bf;
+  opacity: inherit;
 }
 
 h2{
@@ -83,6 +84,7 @@ p > span{
 }
 
 .cad-scroll-indicator{
+  margin-bottom: 0.7em;
   max-height: 25px;
 }
 
@@ -91,6 +93,14 @@ p > span{
   margin: 0 auto;
   width: 2px;
   height: 100px;
+  background-color: #2d2d2d;
+}
+
+.cad-vertical-line{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 2px;
   background-color: #2d2d2d;
 }
 
@@ -163,9 +173,7 @@ p > span{
 /* --------------------- INTRO --------------------- */
 
 #cad-intro-page{
-  background-image: url(../images/background-image-intro.png);
-  background-position: center;
-  background-size: cover;
+  background-color: #b9e2f7;
 }
 
 #cad-intro-page > header{
@@ -222,18 +230,23 @@ p > span{
 /* --------------------- PAGE 1 --------------------- */
 
 #cad-page-1{
-  background-image: url(../images/background-image-intro.png);
-  background-position: center;
-  background-size: cover;
+  background-color: #b9e2f7;
 }
 
-#cad-page-1 > h2{
+#cad-page-1 > *{
+  opacity: 0;
+}
+
+#cad-page-1 > header{
   margin: auto 0;
-  color: #ffffff;
 }
 
 #cad-page-1 > p{
-  margin: 2em 0 0 0;
+  margin: 2em 0 auto 0;
+}
+
+#cad-page-1 > footer{
+  margin-top: 0;
 }
 
 /* Animation */
@@ -273,17 +286,15 @@ p > span{
 /* --------------------- PAGE 2 --------------------- */
 
 #cad-page-2{
-  background-image: url(../images/background-image-population.png);
-  background-size: cover;
+  background-color: #b9e2f7;
 }
 
-#cad-page-2 > p{
-  margin-bottom: auto;
+#cad-page-2 > *{
+  opacity: 0;
 }
 
-#cad-page-2 > img{
-  margin: auto 0;
-  max-height: 250px;
+#cad-page-2 > header{
+  margin-bottom: 0;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -392,17 +403,37 @@ p > span{
   background-color: #6295bc;
 }
 
-#cad-page-5 > header > h3{
+#cad-page-5 > div:first-child{
+  margin-top: 1em;
+}
+
+#cad-page-5 > div:last-child{
+  margin: auto 0 0 0;
+}
+
+#cad-page-5 > div > h3{
   color: #ffd00a;
 }
 
-#cad-page-5 > p{
-  margin-bottom: auto;
+#cad-page-5 > div > p:first-child{
+  margin-bottom: 1em;
 }
 
-#cad-page-5 > img{
-  margin: auto 0;
-  max-height: 250px;
+#cad-page-5 > div > p:last-child{
+  margin-top: 1em;
+}
+
+#cad-page-5 > div > .cad-vertical-line{
+  margin: 0.5em auto 0.5em auto;
+  background-color: #ffd00a;
+}
+
+#cad-page-5 > div > img{
+  margin-top: 2em;
+}
+
+#cad-page-5 > footer > .cad-horizontal-line{
+  background-color: #ffd00a;
 }
 
 /* --- BREAKPOINT 1 --- */
