@@ -8,7 +8,7 @@
   Dark Blue: #8cb3bf
   Black: #051922
   Yellow: #ffd00a
-  Red: #e73b23
+  Red: #e63b23
   Black (Text): #2d2d2d
 */
 
@@ -59,28 +59,57 @@ h2{
   font-family: 'Staatliches', sans-serif;
   font-size: 3em;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   color: #ffffff;
+}
+
+.cad-h2-yellow{
+  color: #ffd00a;
+}
+
+.cad-h2-red{
+  color: #e63b23;
 }
 
 h3{
   font-family: 'Staatliches', sans-serif;
-  font-size: 1.1em;
+  font-size: 1.3em;
   text-transform: uppercase;
   font-weight: lighter;
-  letter-spacing: 3px;
+  letter-spacing: 0.5px;
   color: #2d2d2d;
+}
+
+h3 > span{
+  color: #ffd00a;
+}
+
+.cad-h3-white{
+  color: #ffffff;
+}
+
+.cad-h3-yellow{
+  color: #ffd00a;
+}
+
+.cad-h3-red{
+  color: #e63b23;
 }
 
 p{
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 300;
   color: #2d2d2d;
 }
 
 p > span{
-  font-weight: 700;
+  color: #ffd00a;
+  font-weight: bold;
+}
+
+.cad-p-white{
+  color: #ffffff;
 }
 
 .cad-scroll-indicator{
@@ -96,7 +125,15 @@ p > span{
   background-color: #2d2d2d;
 }
 
-.cad-vertical-line{
+.cad-horizontal-line-yellow{
+  background-color: #ffd00a;
+}
+
+.cad-horizontal-line-red{
+  background-color: #e63b23;
+}
+
+/* .cad-vertical-line{
   display: block;
   margin: 0 auto;
   width: 100px;
@@ -104,25 +141,19 @@ p > span{
   background-color: #2d2d2d;
 }
 
+.cad-vertical-line-yellow{
+  background-color: #ffd00a;
+}
+
+.cad-vertical-line-red{
+  background-color: #e63b23;
+} */
+
 /* --- BREAKPOINT 1 --- */
 
 @media (min-width:768px) {
 
-  h1{
-    font-size: 3.75em;
-  }
 
-  h2{
-    font-size: 3.5em;
-  }
-
-  h3{
-    font-size: 2em;
-  }
-
-  p{
-    font-size: 1.2em;
-  }
 
 }
 
@@ -130,21 +161,7 @@ p > span{
 
 @media (min-width:1024px) {
 
-  h1{
-    font-size: 4.75em;
-  }
 
-  h2{
-    font-size: 4.5em;
-  }
-
-  h3{
-    font-size: 2.75em;
-  }
-
-  p{
-    font-size: 1.4em;
-  }
 
 }
 
@@ -152,21 +169,7 @@ p > span{
 
 @media (min-width:1440px) {
 
-  h1{
-    font-size: 5.75em;
-  }
 
-  h2{
-    font-size: 5.5em;
-  }
-
-  h3{
-    font-size: 3.4em;
-  }
-
-  p{
-    font-size: 1.6em;
-  }
 
 }
 
@@ -257,9 +260,7 @@ p > span{
 
 @media (min-width:768px) {
 
-  #cad-page-1{
-    padding: 0 2em;
-  }
+
 
 }
 
@@ -267,9 +268,7 @@ p > span{
 
 @media (min-width:1024px) {
 
-  #cad-page-1{
-    padding: 0 4em;
-  }
+
 
 }
 
@@ -277,9 +276,7 @@ p > span{
 
 @media (min-width:1440px) {
 
-  #cad-page-1{
-    padding: 0 8em;
-  }
+
 
 }
 
@@ -331,18 +328,6 @@ p > span{
   margin-top: 0;
 }
 
-#cad-page-3 > header > .cad-horizontal-line{
-  background-color: #ffd00a;
-}
-
-#cad-page-3 > h3{
-  color: #ffd00a;
-}
-
-#cad-page-3 > footer > .cad-horizontal-line{
-  background-color: #ffd00a;
-}
-
 /* --- BREAKPOINT 1 --- */
 
 @media (min-width:768px) {
@@ -369,8 +354,25 @@ p > span{
 
 /* --------------------- PAGE 4 --------------------- */
 
-#cad-page-4 > p{
-  margin-bottom: auto;
+#cad-page-4{
+  justify-content: space-around;
+  background-color: #6295bc;
+}
+
+#cad-page-4 > div > p:first-child{
+  margin-bottom: 0.5em;
+}
+
+#cad-page-4 > div > p:last-child{
+  margin-top: 0.5em;
+}
+
+#cad-page-4 > div > .cad-vertical-line{
+  margin: 0.5em auto 0.5em auto;
+}
+
+#cad-page-4 > div > img{
+  margin-top: 2em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -403,37 +405,14 @@ p > span{
   background-color: #6295bc;
 }
 
-#cad-page-5 > div:first-child{
-  margin-top: 1em;
+#cad-page-5 > header{
+  margin-top: 0;
 }
 
-#cad-page-5 > div:last-child{
-  margin: auto 0 0 0;
-}
-
-#cad-page-5 > div > h3{
-  color: #ffd00a;
-}
-
-#cad-page-5 > div > p:first-child{
-  margin-bottom: 1em;
-}
-
-#cad-page-5 > div > p:last-child{
-  margin-top: 1em;
-}
-
-#cad-page-5 > div > .cad-vertical-line{
-  margin: 0.5em auto 0.5em auto;
-  background-color: #ffd00a;
-}
-
-#cad-page-5 > div > img{
-  margin-top: 2em;
-}
-
-#cad-page-5 > footer > .cad-horizontal-line{
-  background-color: #ffd00a;
+#cad-page-5 > img{
+  display: block;
+  margin: auto 0 1em 0;
+  max-height: 350px;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -462,8 +441,18 @@ p > span{
 
 /* --------------------- PAGE 6 --------------------- */
 
+#cad-page-6{
+  background-color: #6295bc;
+}
+
 #cad-page-6 > p{
-  margin-bottom: auto;
+  margin-top: 1em;
+}
+
+#cad-page-6 > img{
+  display: block;
+  margin: auto 0 auto 0;
+  max-height: 350px;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -492,13 +481,7 @@ p > span{
 
 /* --------------------- PAGE 7 --------------------- */
 
-#cad-page-7{
-  justify-content: space-between;
-}
 
-#cad-page-7 > h3:first-child{
-  margin-top: auto;
-}
 
 /* --- BREAKPOINT 1 --- */
 
@@ -526,9 +509,7 @@ p > span{
 
 /* --------------------- PAGE 8 --------------------- */
 
-#cad-page-8 > p{
-  margin-bottom: auto;
-}
+
 
 /* --- BREAKPOINT 1 --- */
 
@@ -556,8 +537,8 @@ p > span{
 
 /* --------------------- PAGE 9 --------------------- */
 
-#cad-page-9 > p{
-  margin-bottom: auto;
+#cad-page-9{
+  background-color: #ffffff;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -586,12 +567,227 @@ p > span{
 
 /* --------------------- PAGE 10 --------------------- */
 
-#cad-page-10{
-  justify-content: space-between;
+#cad-page-10 > header{
+  margin-top: 0;
 }
 
-#cad-page-10 > p:first-child{
+#cad-page-10 > h3:first-child{
   margin-top: auto;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 11 --------------------- */
+
+
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 12 --------------------- */
+
+
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 13 --------------------- */
+
+#cad-page-13 > header{
+  margin-top: 0;
+}
+
+#cad-page-13 > h3:first-child{
+  margin-top: auto;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 14 --------------------- */
+
+#cad-page-14{
+  background-color: #ffffff;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 15 --------------------- */
+
+#cad-page-15{
+  background-color: #051922;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 16 --------------------- */
+
+#cad-page-16{
+  background-color: #051922;
+}
+
+#cad-page-16 > header{
+  margin-top: 0;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 17 --------------------- */
+
+#cad-page-17{
+  justify-content: center;
+  background-color: #051922;
 }
 
 /* --- BREAKPOINT 1 --- */
