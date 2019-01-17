@@ -105,7 +105,6 @@ p{
 
 p > span{
   color: #ffd00a;
-  font-weight: bold;
 }
 
 .cad-p-white{
@@ -723,6 +722,14 @@ p > span{
 
 #cad-page-15{
   background-color: #051922;
+}
+
+#cad-page-15 > div:first-child{
+  margin-top: auto;
+}
+
+#cad-page-15 > div:last-child{
+  margin: 10em 0 auto 0;
 }
 
 /* --- BREAKPOINT 1 --- */
