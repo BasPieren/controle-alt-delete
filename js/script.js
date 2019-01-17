@@ -1,16 +1,18 @@
 var controller = new ScrollMagic.Controller()
 
-$('.cad-fade-in').each(function() {
+const classFadeIn = document.getElementsByClassName('cad-fade-in')
 
-  var tween = TweenMax.from($(this), 0.6, {
+for (var i = 0; i < classFadeIn.length; i++) {
+
+  var tweenFadeIn = TweenMax.from(classFadeIn[i], 0.5, {
     opacity: 0,
     ease: Linear.easeNone
-  });
-
-  var scene = new ScrollMagic.Scene({
-    triggerElement: this
   })
-  .setTween(tween)
-  .addTo(controller);
 
-});
+  var sceneFadeIn = new ScrollMagic.Scene({
+    triggerElement: classFadeIn[i]
+  })
+  .setTween(tweenFadeIn)
+  .addTo(controller)
+
+}
