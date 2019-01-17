@@ -107,6 +107,12 @@ p > span{
   color: #ffd00a;
 }
 
+a{
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
 .cad-p-white{
   color: #ffffff;
 }
@@ -116,27 +122,11 @@ p > span{
   max-height: 25px;
 }
 
-.cad-horizontal-line{
+.cad-vertical-line{
   display: block;
   margin: 0 auto;
   width: 2px;
   height: 100px;
-  background-color: #2d2d2d;
-}
-
-.cad-horizontal-line-yellow{
-  background-color: #ffd00a;
-}
-
-.cad-horizontal-line-red{
-  background-color: #e63b23;
-}
-
-/* .cad-vertical-line{
-  display: block;
-  margin: 0 auto;
-  width: 100px;
-  height: 2px;
   background-color: #2d2d2d;
 }
 
@@ -146,7 +136,7 @@ p > span{
 
 .cad-vertical-line-red{
   background-color: #e63b23;
-} */
+}
 
 /* --- BREAKPOINT 1 --- */
 
@@ -198,7 +188,7 @@ p > span{
   animation-fill-mode: forwards;
 }
 
-#cad-intro-page > footer > .cad-horizontal-line{
+#cad-intro-page > footer > .cad-vertical-line{
   opacity: 0;
   animation: bottomSlideIn 1s;
   animation-delay: 1.2s;
