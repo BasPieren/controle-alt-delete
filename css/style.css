@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Staatliches');
 
 /* ----------- COLORS ----------- */
 
@@ -20,7 +20,11 @@
 }
 
 main{
-  background-color: #055980;
+  background: #b9e2f7;
+  background: -moz-linear-gradient(top, #b9e2f7 0%, #6295bc 50%, #051922 100%);
+  background: -webkit-linear-gradient(top, #b9e2f7 0%,#6295bc 50%,#051922 100%);
+  background: linear-gradient(to bottom, #b9e2f7 0%,#6295bc 50%,#051922 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9e2f7', endColorstr='#051922',GradientType=0 );
 }
 
 section{
@@ -97,7 +101,7 @@ h3 > span{
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1em;
   font-weight: 300;
   color: #2d2d2d;
@@ -164,9 +168,11 @@ a{
 
 /* --------------------- INTRO --------------------- */
 
-#cad-intro-page{
-  background-color: #b9e2f7;
-}
+/* #cad-intro-page{
+  background-image: url(../images/background/background-1.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 #cad-intro-page > header{
   margin: auto 0 0 0;
@@ -221,13 +227,11 @@ a{
 
 /* --------------------- PAGE 1 --------------------- */
 
-#cad-page-1{
-  background-color: #b9e2f7;
-}
-
-#cad-page-1 > *{
-  opacity: 0;
-}
+/* #cad-page-1{
+  background-image: url(../images/background/background-2.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 #cad-page-1 > header{
   margin: auto 0;
@@ -271,16 +275,31 @@ a{
 
 /* --------------------- PAGE 2 --------------------- */
 
-#cad-page-2{
-  background-color: #b9e2f7;
-}
-
-#cad-page-2 > *{
-  opacity: 0;
-}
+/* #cad-page-2{
+  background-image: url(../images/background/background-3.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 #cad-page-2 > header{
   margin-bottom: 0;
+}
+
+#cad-page-2 > div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  margin-top: auto;
+  padding: 0 3em;
+}
+
+#cad-page-2 > div > div > img{
+  max-height: 3.5em;
+}
+
+#cad-page-2 > div > div > p{
+  margin-top: 0.5em;
+  font-size: 0.7em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -310,7 +329,9 @@ a{
 /* --------------------- PAGE 3 --------------------- */
 
 #cad-page-3{
-  background-color: #6295bc;
+  /* background-image: url(../images/background/background-4.png);
+  background-position: center;
+  background-size: cover; */
 }
 
 #cad-page-3 > header{
@@ -344,24 +365,69 @@ a{
 /* --------------------- PAGE 4 --------------------- */
 
 #cad-page-4{
-  justify-content: space-around;
-  background-color: #6295bc;
+  min-height: 50vh;
+  /* justify-content: space-around;
+  background-image: url(../images/background/background-5.png);
+  background-position: center;
+  background-size: cover; */
 }
 
-#cad-page-4 > div > p:first-child{
-  margin-bottom: 0.5em;
-}
-
-#cad-page-4 > div > p:last-child{
-  margin-top: 0.5em;
-}
-
-#cad-page-4 > div > .cad-vertical-line{
-  margin: 0.5em auto 0.5em auto;
+#cad-page-4 > p{
+  margin-top: 1em;
 }
 
 #cad-page-4 > div > img{
   margin-top: 2em;
+}
+
+#cad-page-4 > footer{
+  margin-top: 1em;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 4.2 --------------------- */
+
+#cad-page-4-2{
+  min-height: 50vh;
+  /* justify-content: space-around;
+  background-image: url(../images/background/background-6.png);
+  background-position: center;
+  background-size: cover; */
+}
+
+#cad-page-4-2 > p:first-child{
+  margin-top: 1em;
+}
+
+#cad-page-4-2 > div > img{
+  margin-top: 2em;
+}
+
+#cad-page-4-2 > footer{
+  margin-top: 1em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -391,7 +457,10 @@ a{
 /* --------------------- PAGE 5 --------------------- */
 
 #cad-page-5{
-  background-color: #6295bc;
+  min-height: 80vh;
+  /* background-image: url(../images/background/background-6.png);
+  background-position: center;
+  background-size: cover; */
 }
 
 #cad-page-5 > header{
@@ -430,17 +499,19 @@ a{
 
 /* --------------------- PAGE 6 --------------------- */
 
-#cad-page-6{
-  background-color: #6295bc;
-}
+/* #cad-page-6{
+  background-image: url(../images/background/background-7.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 #cad-page-6 > p{
-  margin-top: 1em;
+  margin-top: auto;
 }
 
 #cad-page-6 > img{
   display: block;
-  margin: auto 0 auto 0;
+  margin-top: auto;
   max-height: 350px;
 }
 
@@ -470,7 +541,11 @@ a{
 
 /* --------------------- PAGE 7 --------------------- */
 
-
+/* #cad-page-7{
+  background-image: url(../images/background/background-8.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 /* --- BREAKPOINT 1 --- */
 
@@ -498,7 +573,11 @@ a{
 
 /* --------------------- PAGE 8 --------------------- */
 
-
+/* #cad-page-8{
+  background-image: url(../images/background/background-9.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 /* --- BREAKPOINT 1 --- */
 
@@ -556,6 +635,12 @@ a{
 
 /* --------------------- PAGE 10 --------------------- */
 
+/* #cad-page-10{
+  background-image: url(../images/background/background-10.png);
+  background-position: center;
+  background-size: cover;
+} */
+
 #cad-page-10 > header{
   margin-top: 0;
 }
@@ -590,7 +675,27 @@ a{
 
 /* --------------------- PAGE 11 --------------------- */
 
+/* #cad-page-11{
+  background-image: url(../images/background/background-11.png);
+  background-position: center;
+  background-size: cover;
+} */
 
+#cad-page-11 > div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin-bottom: auto;
+}
+
+#cad-page-11 > div > div > img{
+  max-height: 5em;
+}
+
+#cad-page-11 > div > div > p{
+  margin-top: 0.5em;
+  font-size: 0.7em;
+}
 
 /* --- BREAKPOINT 1 --- */
 
@@ -618,7 +723,11 @@ a{
 
 /* --------------------- PAGE 12 --------------------- */
 
-
+/* #cad-page-12{
+  background-image: url(../images/background/background-12.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 /* --- BREAKPOINT 1 --- */
 
@@ -645,6 +754,12 @@ a{
 }
 
 /* --------------------- PAGE 13 --------------------- */
+
+/* #cad-page-13{
+  background-image: url(../images/background/background-13.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 #cad-page-13 > header{
   margin-top: 0;
@@ -710,9 +825,11 @@ a{
 
 /* --------------------- PAGE 15 --------------------- */
 
-#cad-page-15{
-  background-color: #051922;
-}
+/* #cad-page-15{
+  background-image: url(../images/background/background-14.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 #cad-page-15 > div:first-child{
   margin-top: auto;
@@ -748,9 +865,11 @@ a{
 
 /* --------------------- PAGE 16 --------------------- */
 
-#cad-page-16{
-  background-color: #051922;
-}
+/* #cad-page-16{
+  background-image: url(../images/background/background-15.png);
+  background-position: center;
+  background-size: cover;
+} */
 
 #cad-page-16 > header{
   margin-top: 0;
@@ -782,9 +901,21 @@ a{
 
 /* --------------------- PAGE 17 --------------------- */
 
-#cad-page-17{
+/* #cad-page-17{
   justify-content: center;
-  background-color: #051922;
+  background-image: url(../images/background/background-15.png);
+  background-position: center;
+  background-size: cover;
+} */
+
+#cad-page-17 > footer > div{
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0;
+}
+
+#cad-page-17 > footer > div > img{
+  max-height: 5em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -815,28 +946,28 @@ a{
 
 @keyframes topSlideIn {
 
-	0%   { opacity: 0; transform: translate(0, -45%);}
+	0%   { /* opacity: 0; */ transform: translate(0, -45%);}
  	100% { opacity: 1; transform: translate(0, 0);}
 
 }
 
 @keyframes leftSlideIn {
 
-	0%   { opacity: 0; transform: translate(-20%, 0);}
+	0%   { /* opacity: 0; */ transform: translate(-20%, 0);}
  	100% { opacity: 1; transform: translate(0, 0);}
 
 }
 
 @keyframes rightSlideIn {
 
-	0%   { opacity: 0; transform: translate(60%, 0);}
+	0%   { /* opacity: 0; */ transform: translate(60%, 0);}
  	100% { opacity: 1; transform: translate(0, 0);}
 
 }
 
 @keyframes bottomSlideIn {
 
-	0%   { opacity: 0; transform: translate(0, 45%);}
+	0%   { /* opacity: 0; */ transform: translate(0, 45%);}
  	100% { opacity: 1; transform: translate(0, 0);}
 
 }
