@@ -328,11 +328,11 @@ a{
 
 /* --------------------- PAGE 3 --------------------- */
 
-#cad-page-3{
-  /* background-image: url(../images/background/background-4.png);
+/* #cad-page-3{
+  background-image: url(../images/background/background-4.png);
   background-position: center;
-  background-size: cover; */
-}
+  background-size: cover;
+} */
 
 #cad-page-3 > header{
   margin-top: 0;
@@ -463,8 +463,8 @@ a{
   background-size: cover; */
 }
 
-#cad-page-5 > header{
-  margin-top: 0;
+#cad-page-5 > h3{
+  margin-top: auto;
 }
 
 #cad-page-5 > img{
@@ -547,6 +547,134 @@ a{
   background-size: cover;
 } */
 
+#cad-page-7 > div{
+  margin: 0 0 auto 0;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-gap: 1.5em;
+  text-align: right;
+}
+
+#cad-page-7 > div > p{
+  font-size: 0.9em;
+}
+
+.cad-horizontal-population{
+  margin: auto 0;
+  height: 5px;
+  background-color: #ffd00a;
+}
+
+.cad-100{
+  width: 100%;
+}
+
+#cad-page-7 > div .cad-100::after{
+  content: '2.331.589';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-95{
+  width: 95%;
+}
+
+#cad-page-7 > div .cad-95::after{
+  content: '1.964.536';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-90{
+  width: 90%;
+}
+
+#cad-page-7 > div .cad-90::after{
+  content: '1.722.247';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-85{
+  width: 85%;
+}
+
+#cad-page-7 > div .cad-85::after{
+  content: '1.692.322';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-60{
+  width: 60%;
+}
+
+#cad-page-7 > div .cad-60::after{
+  content: '1.117.546';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-55{
+  width: 55%;
+}
+
+#cad-page-7 > div .cad-55::after{
+  content: '844.947';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-50{
+  width: 50%;
+}
+
+#cad-page-7 > div .cad-50::after{
+  content: '738.699';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-45{
+  width: 45%;
+}
+
+#cad-page-7 > div .cad-45::after{
+  content: '634.660';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-40{
+  width: 40%;
+}
+
+#cad-page-7 > div .cad-40::after{
+  content: '524.882';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-30{
+  width: 30%;
+}
+
+#cad-page-7 > div .cad-30::after{
+  content: '469.881';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
 /* --- BREAKPOINT 1 --- */
 
 @media (min-width:768px) {
@@ -578,6 +706,18 @@ a{
   background-position: center;
   background-size: cover;
 } */
+
+#cad-page-8 > div{
+  margin-bottom: auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-gap: 1.5em;
+  text-align: right;
+}
+
+#cad-page-8 > div > p{
+  font-size: 0.9em;
+}
 
 /* --- BREAKPOINT 1 --- */
 
