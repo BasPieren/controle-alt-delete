@@ -47,7 +47,7 @@ function populationUnit() {
 
   var scene = new ScrollMagic.Scene({
     triggerElement: '#cad-page-8',
-    duration: 300
+    duration: 350
   })
     .setTween(tween)
     .addTo(controller)
@@ -81,7 +81,7 @@ function incidentsYears() {
     .map(({ name, value }) => ({ name: name, value: value }))
 
   var height = 450
-  var width = 300
+  var width = 272
   var margin = { top: 20, right: 0, bottom: 0, left: 0 }
 
   var svg = d3.select('#cad-incidents-chart')
