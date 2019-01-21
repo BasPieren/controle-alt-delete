@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Staatliches');
 
 /* ----------- COLORS ----------- */
 
@@ -34,10 +34,6 @@ section{
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-}
-
-section:last-child{
-  padding-bottom: 1em;
 }
 
 section > header{
@@ -101,8 +97,8 @@ h3 > span{
 }
 
 p{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
   font-weight: 300;
   color: #2d2d2d;
 }
@@ -168,11 +164,11 @@ a{
 
 /* --------------------- INTRO --------------------- */
 
-/* #cad-intro-page{
+#cad-intro-page{
   background-image: url(../images/background/background-1.png);
   background-position: center;
   background-size: cover;
-} */
+}
 
 #cad-intro-page > header{
   margin: auto 0 0 0;
@@ -227,12 +223,6 @@ a{
 
 /* --------------------- PAGE 1 --------------------- */
 
-/* #cad-page-1{
-  background-image: url(../images/background/background-2.png);
-  background-position: center;
-  background-size: cover;
-} */
-
 #cad-page-1 > header{
   margin: auto 0;
 }
@@ -274,12 +264,6 @@ a{
 }
 
 /* --------------------- PAGE 2 --------------------- */
-
-/* #cad-page-2{
-  background-image: url(../images/background/background-3.png);
-  background-position: center;
-  background-size: cover;
-} */
 
 #cad-page-2 > header{
   margin-bottom: 0;
@@ -328,14 +312,14 @@ a{
 
 /* --------------------- PAGE 3 --------------------- */
 
-/* #cad-page-3{
+#cad-page-3{
   background-image: url(../images/background/background-4.png);
   background-position: center;
   background-size: cover;
-} */
+}
 
-#cad-page-3 > header{
-  margin-top: 0;
+#cad-page-3 > h3{
+  margin-top: auto;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -366,10 +350,6 @@ a{
 
 #cad-page-4{
   min-height: 50vh;
-  /* justify-content: space-around;
-  background-image: url(../images/background/background-5.png);
-  background-position: center;
-  background-size: cover; */
 }
 
 #cad-page-4 > p{
@@ -408,69 +388,22 @@ a{
 
 }
 
-/* --------------------- PAGE 4.2 --------------------- */
-
-#cad-page-4-2{
-  min-height: 50vh;
-  /* justify-content: space-around;
-  background-image: url(../images/background/background-6.png);
-  background-position: center;
-  background-size: cover; */
-}
-
-#cad-page-4-2 > p:first-child{
-  margin-top: 1em;
-}
-
-#cad-page-4-2 > div > img{
-  margin-top: 2em;
-}
-
-#cad-page-4-2 > footer{
-  margin-top: 1em;
-}
-
-/* --- BREAKPOINT 1 --- */
-
-@media (min-width:768px) {
-
-
-
-}
-
-/* --- BREAKPOINT 2 --- */
-
-@media (min-width:1024px) {
-
-
-
-}
-
-/* --- BREAKPOINT 3 --- */
-
-@media (min-width:1440px) {
-
-
-
-}
-
 /* --------------------- PAGE 5 --------------------- */
 
 #cad-page-5{
-  min-height: 80vh;
-  /* background-image: url(../images/background/background-6.png);
-  background-position: center;
-  background-size: cover; */
+  min-height: 50vh;
 }
 
-#cad-page-5 > h3{
-  margin-top: auto;
+#cad-page-5 > p:first-child{
+  margin-top: 1em;
 }
 
-#cad-page-5 > img{
-  display: block;
-  margin: auto 0 1em 0;
-  max-height: 350px;
+#cad-page-5 > div > img{
+  margin-top: 2em;
+}
+
+#cad-page-5 > footer{
+  margin-top: 1em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -499,17 +432,45 @@ a{
 
 /* --------------------- PAGE 6 --------------------- */
 
-/* #cad-page-6{
-  background-image: url(../images/background/background-7.png);
-  background-position: center;
-  background-size: cover;
-} */
+#cad-page-6{
+  min-height: 80vh;
+}
 
-#cad-page-6 > p{
+#cad-page-6 > h3{
   margin-top: auto;
 }
 
-#cad-page-6 > img{
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 7 --------------------- */
+
+#cad-page-7 > p{
+  margin-top: auto;
+}
+
+#cad-page-7 > img{
   display: block;
   margin-top: auto;
   max-height: 350px;
@@ -539,15 +500,9 @@ a{
 
 }
 
-/* --------------------- PAGE 7 --------------------- */
+/* --------------------- PAGE 8 --------------------- */
 
-/* #cad-page-7{
-  background-image: url(../images/background/background-8.png);
-  background-position: center;
-  background-size: cover;
-} */
-
-#cad-page-7 > div{
+#cad-page-8 > div{
   margin: 0 0 auto 0;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
@@ -555,7 +510,7 @@ a{
   text-align: right;
 }
 
-#cad-page-7 > div > p{
+#cad-page-8 > div > p{
   font-size: 0.9em;
 }
 
@@ -569,7 +524,7 @@ a{
   width: 100%;
 }
 
-#cad-page-7 > div .cad-100::after{
+#cad-page-8 > div .cad-100::after{
   content: '2.331.589';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -580,7 +535,7 @@ a{
   width: 95%;
 }
 
-#cad-page-7 > div .cad-95::after{
+#cad-page-8 > div .cad-95::after{
   content: '1.964.536';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -591,7 +546,7 @@ a{
   width: 90%;
 }
 
-#cad-page-7 > div .cad-90::after{
+#cad-page-8 > div .cad-90::after{
   content: '1.722.247';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -602,7 +557,7 @@ a{
   width: 85%;
 }
 
-#cad-page-7 > div .cad-85::after{
+#cad-page-8 > div .cad-85::after{
   content: '1.692.322';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -613,7 +568,7 @@ a{
   width: 60%;
 }
 
-#cad-page-7 > div .cad-60::after{
+#cad-page-8 > div .cad-60::after{
   content: '1.117.546';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -624,7 +579,7 @@ a{
   width: 55%;
 }
 
-#cad-page-7 > div .cad-55::after{
+#cad-page-8 > div .cad-55::after{
   content: '844.947';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -635,7 +590,7 @@ a{
   width: 50%;
 }
 
-#cad-page-7 > div .cad-50::after{
+#cad-page-8 > div .cad-50::after{
   content: '738.699';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -646,7 +601,7 @@ a{
   width: 45%;
 }
 
-#cad-page-7 > div .cad-45::after{
+#cad-page-8 > div .cad-45::after{
   content: '634.660';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -657,7 +612,7 @@ a{
   width: 40%;
 }
 
-#cad-page-7 > div .cad-40::after{
+#cad-page-8 > div .cad-40::after{
   content: '524.882';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -668,7 +623,7 @@ a{
   width: 30%;
 }
 
-#cad-page-7 > div .cad-30::after{
+#cad-page-8 > div .cad-30::after{
   content: '469.881';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
@@ -699,15 +654,9 @@ a{
 
 }
 
-/* --------------------- PAGE 8 --------------------- */
+/* --------------------- PAGE 9 --------------------- */
 
-/* #cad-page-8{
-  background-image: url(../images/background/background-9.png);
-  background-position: center;
-  background-size: cover;
-} */
-
-#cad-page-8 > div{
+#cad-page-9 > div{
   margin-bottom: auto;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
@@ -715,7 +664,7 @@ a{
   text-align: right;
 }
 
-#cad-page-8 > div > p{
+#cad-page-9 > div > p{
   font-size: 0.9em;
 }
 
@@ -743,43 +692,7 @@ a{
 
 }
 
-/* --------------------- PAGE 9 --------------------- */
-
-#cad-page-9{
-  background-color: #ffffff;
-}
-
-/* --- BREAKPOINT 1 --- */
-
-@media (min-width:768px) {
-
-
-
-}
-
-/* --- BREAKPOINT 2 --- */
-
-@media (min-width:1024px) {
-
-
-
-}
-
-/* --- BREAKPOINT 3 --- */
-
-@media (min-width:1440px) {
-
-
-
-}
-
 /* --------------------- PAGE 10 --------------------- */
-
-/* #cad-page-10{
-  background-image: url(../images/background/background-10.png);
-  background-position: center;
-  background-size: cover;
-} */
 
 #cad-page-10 > header{
   margin-top: 0;
@@ -814,12 +727,6 @@ a{
 }
 
 /* --------------------- PAGE 11 --------------------- */
-
-/* #cad-page-11{
-  background-image: url(../images/background/background-11.png);
-  background-position: center;
-  background-size: cover;
-} */
 
 #cad-page-11 > div{
   display: grid;
@@ -863,11 +770,12 @@ a{
 
 /* --------------------- PAGE 12 --------------------- */
 
-/* #cad-page-12{
-  background-image: url(../images/background/background-12.png);
-  background-position: center;
-  background-size: cover;
-} */
+#cad-incidents-chart{
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 500px;
+}
 
 /* --- BREAKPOINT 1 --- */
 
@@ -894,12 +802,6 @@ a{
 }
 
 /* --------------------- PAGE 13 --------------------- */
-
-/* #cad-page-13{
-  background-image: url(../images/background/background-13.png);
-  background-position: center;
-  background-size: cover;
-} */
 
 #cad-page-13 > header{
   margin-top: 0;
@@ -965,18 +867,8 @@ a{
 
 /* --------------------- PAGE 15 --------------------- */
 
-/* #cad-page-15{
-  background-image: url(../images/background/background-14.png);
-  background-position: center;
-  background-size: cover;
-} */
-
-#cad-page-15 > div:first-child{
-  margin-top: auto;
-}
-
-#cad-page-15 > div:last-child{
-  margin: 10em 0 auto 0;
+#cad-page-15 > header{
+  margin-top: 0;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -1005,57 +897,30 @@ a{
 
 /* --------------------- PAGE 16 --------------------- */
 
-/* #cad-page-16{
-  background-image: url(../images/background/background-15.png);
-  background-position: center;
-  background-size: cover;
-} */
-
-#cad-page-16 > header{
-  margin-top: 0;
+#cad-page-16 > div:first-child {
+  margin-top: auto;
 }
 
-/* --- BREAKPOINT 1 --- */
-
-@media (min-width:768px) {
-
-
-
+#cad-page-16 > div:first-child > h3{
+  margin: 1em 0;
 }
 
-/* --- BREAKPOINT 2 --- */
-
-@media (min-width:1024px) {
-
-
-
+#cad-page-16 > div:first-child > img{
+  max-height: 4em;
 }
 
-/* --- BREAKPOINT 3 --- */
-
-@media (min-width:1440px) {
-
-
-
+#cad-page-16 > footer{
+  margin-bottom: 1em;
 }
 
-/* --------------------- PAGE 17 --------------------- */
-
-/* #cad-page-17{
-  justify-content: center;
-  background-image: url(../images/background/background-15.png);
-  background-position: center;
-  background-size: cover;
-} */
-
-#cad-page-17 > footer > div{
+#cad-page-16 > footer > div{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 2em 0;
 }
 
-#cad-page-17 > footer > div > img{
-  max-height: 5em;
+#cad-page-16 > footer > div > img{
+  max-height: 4em;
 }
 
 /* --- BREAKPOINT 1 --- */
