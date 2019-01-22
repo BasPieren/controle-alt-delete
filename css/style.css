@@ -220,7 +220,7 @@ video {
 /* --------------------- INTRO --------------------- */
 
 #cad-intro-page{
-  height: 90vh;
+  min-height: 90vh;
   background-image: url(../images/background/background-1.png);
   background-position: center;
   background-size: cover;
