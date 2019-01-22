@@ -330,19 +330,24 @@ video {
 }
 
 #cad-page-2 > img{
-  margin: auto auto 0 auto;
-  max-height: 3em;
+  margin: auto;
+  max-height: 2.5em;
 }
 
 #cad-page-2 > div{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5em;
-  margin: auto 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#cad-page-2 > div > div{
+  height: 3em;
+  width: 3em;
+  margin: 0.6em 0.4em;
 }
 
 #cad-page-2 > div > div > img{
-  max-height: 3em;
+  max-height: 2.5em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -374,13 +379,18 @@ video {
 /* --------------------- PAGE 3 --------------------- */
 
 #cad-page-3{
-  background-image: url(../images/background/background-4.png);
+  /* background-image: url(../images/background/background-4.png);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  min-height: 50vh;
 }
 
 #cad-page-3 > h3{
   margin: auto 0;
+}
+
+#cad-page-3 > footer{
+  margin-top: 0;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -498,6 +508,10 @@ video {
 
 /* --------------------- PAGE 6 --------------------- */
 
+#cad-page-6{
+  min-height: 50vh;
+}
+
 #cad-page-6 > h3{
   margin: auto 0;
 }
@@ -564,8 +578,16 @@ video {
 
 /* --------------------- PAGE 8 --------------------- */
 
+#cad-page-8 {
+  min-height: 50vh;
+}
+
 #cad-page-8 > h3{
   margin: auto 0;
+}
+
+#cad-page-8 > footer{
+  margin-top: 0;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -710,7 +732,7 @@ video {
 }
 
 .cad-horizontal-container .cad-50::after{
-  content: '738.699';
+  content: '1.367.665';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
@@ -721,7 +743,7 @@ video {
 }
 
 .cad-horizontal-container .cad-45::after{
-  content: '634.660';
+  content: '1.328.997';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
@@ -732,7 +754,7 @@ video {
 }
 
 .cad-horizontal-container .cad-40::after{
-  content: '524.882';
+  content: '1.003.243';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
@@ -743,7 +765,7 @@ video {
 }
 
 .cad-horizontal-container .cad-30::after{
-  content: '469.881';
+  content: '921.205';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
