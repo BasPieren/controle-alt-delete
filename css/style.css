@@ -633,7 +633,7 @@ video {
 
 .cad-horizontal-container-legenda > div{
   width: 20px;
-  height: 5px;
+  height: 4px;
   background-color: #ffd00a;
 }
 
@@ -661,7 +661,7 @@ video {
 
 .cad-horizontal-population{
   margin: auto 0;
-  height: 5px;
+  height: 4px;
   background-color: #ffd00a;
 }
 
@@ -670,10 +670,12 @@ video {
 }
 
 .cad-horizontal-container .cad-100::after{
+  display: block;
   content: '3.081.285';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-95{
@@ -681,10 +683,12 @@ video {
 }
 
 .cad-horizontal-container .cad-95::after{
+  display: block;
   content: '2.724.603';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-90{
@@ -692,10 +696,12 @@ video {
 }
 
 .cad-horizontal-container .cad-90::after{
+  display: block;
   content: '1.828.711';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-85{
@@ -703,10 +709,12 @@ video {
 }
 
 .cad-horizontal-container .cad-85::after{
+  display: block;
   content: '1.753.083';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-60{
@@ -714,10 +722,12 @@ video {
 }
 
 .cad-horizontal-container .cad-60::after{
+  display: block;
   content: '1.635.992';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-55{
@@ -725,10 +735,12 @@ video {
 }
 
 .cad-horizontal-container .cad-55::after{
+  display: block;
   content: '1.607.944';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-50{
@@ -736,10 +748,12 @@ video {
 }
 
 .cad-horizontal-container .cad-50::after{
+  display: block;
   content: '1.367.665';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-45{
@@ -747,10 +761,12 @@ video {
 }
 
 .cad-horizontal-container .cad-45::after{
+  display: block;
   content: '1.328.997';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-40{
@@ -758,10 +774,12 @@ video {
 }
 
 .cad-horizontal-container .cad-40::after{
+  display: block;
   content: '1.003.243';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 .cad-30{
@@ -769,10 +787,12 @@ video {
 }
 
 .cad-horizontal-container .cad-30::after{
+  display: block;
   content: '921.205';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
+  margin-top: 5px;
 }
 
 /* --- BREAKPOINT 1 --- */
