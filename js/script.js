@@ -30,7 +30,7 @@ function populationTotal() {
 
   var scene = new ScrollMagic.Scene({
     triggerElement: '#cad-page-2',
-    duration: 300
+    duration: 250
   })
     .setTween(tween)
     .addTo(controller)
@@ -45,7 +45,7 @@ function populationUnit() {
 
   var scene = new ScrollMagic.Scene({
     triggerElement: '#cad-page-8',
-    duration: 300
+    duration: 250
   })
     .setTween(tween)
     .addTo(controller)
