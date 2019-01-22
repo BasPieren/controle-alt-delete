@@ -10,6 +10,8 @@ This is the repo for the Controle Alt Delete project.
 * [Installing](#installing-)
   * [Packages and technologies](#packages-and-technologies)
 * [Javascript explanation](#javascript-explanation-)
+  * [ScrollMagic](#scrollmagic)
+  * [Typed](#typed)
 * [Sources](#sources-)
   * [Honourable mentions](#honourable-mentions)
 * [Licence](#licence-)
@@ -68,6 +70,11 @@ for (var i = 0; i < classFadeIn.length; i++) {
 ```
 
 ### Typed
+Typed is used to add a typing animation to a text element. Here I use it to type out the total number of people who live in the Netherlands.
+
+First we create a new ScrollMagic scene that triggers when the user reaches the `#cad-page-2` section. Then we add an `.on` start function which starts the typing animation when we reach the start of the trigger element.
+
+Then we declare which element we want to type and what string to use and speed to type it with.
 
 ```js
 var scene = new ScrollMagic.Scene({
