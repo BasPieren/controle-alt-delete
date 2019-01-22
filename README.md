@@ -44,6 +44,11 @@ This project makes use of the following packages and technologies:
 Here I will explain some of the key elements used in creation of some of the animations.
 
 ### ScrollMagic
+ScrollMagic allows you to trigger animations when the user reaches a certain part of the screen. Here I use it to fade in every section when the user reaches the `.cad-fade-in` div.
+
+We loop through all the `.cad-fade-in` div's and tell the animation tween that that the div go's from an opacity of 0 to 1 which is the default.
+
+Then we also use the `.cad-fade-in` div's as trigger elements so that the animation plays when the user reaches each section on the page.
 
 ```js
 const classFadeIn = document.getElementsByClassName('cad-fade-in')
