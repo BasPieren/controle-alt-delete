@@ -188,7 +188,7 @@ function incidentsYearsAni() {
   })
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#cad-page-12',
+    triggerElement: '#cad-page-14',
     duration: 300
   })
     .setTween(tween)
