@@ -9,18 +9,17 @@ This is the repo for the Controle Alt Delete project.
 * [Description](#description-)
 * [Installing](#installing-)
   * [Packages and technologies](#packages-and-technologies)
-* [Javascript Explanation](javascript-explanation-)
+* [Javascript Explanation](#javascript-explanation-)
 * [Sources](#sources-)
   * [Honourable Mentions](#honourable-mentions)
 * [Licence](#licence-)
 
 ## To Do 📌
 This is a list of things in want to do in this project:
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [X] Use ScrollMagic to create a cool scrolling experience.
+- [X] Use Typed to create typing animations.
+- [ ] Create all data visualisations using D3.
+- [ ] Optimize the webpage for both mobile and desktop.
 
 ## Description 📝
 During this project I made a mobile first scrollytelling webpage using D3.js, ScrollMagic.js and Typed.js. The webpage focuses on telling the story of excessive police brutality in the Netherlands to the user using data provided by the police and Controle Alt Delete.
