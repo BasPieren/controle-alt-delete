@@ -28,7 +28,7 @@ main{
 }
 
 section{
-  padding: 0 1.5em 0 1.5em;
+  padding: 0 1.8em 0 1.8em;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,11 +37,11 @@ section{
 }
 
 section > header{
-    margin: 1em 0 auto 0;
+  margin: 1.8em 0 auto 0;
 }
 
 section > footer{
-  margin: auto 0 0 0;
+  margin: 1.8em 0 0 0;
 }
 
 h1{
@@ -57,7 +57,7 @@ h1{
 
 h2{
   font-family: 'Staatliches', sans-serif;
-  font-size: 3em;
+  font-size: 2.9em;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #ffffff;
@@ -220,6 +220,7 @@ video {
 /* --------------------- INTRO --------------------- */
 
 #cad-intro-page{
+  height: 90vh;
   background-image: url(../images/background/background-1.png);
   background-position: center;
   background-size: cover;
@@ -282,12 +283,12 @@ video {
   margin: auto 0;
 }
 
-#cad-page-1 > p{
-  margin: 2em 0 auto 0;
+#cad-page-1 > h3{
+  margin: auto 0;
 }
 
-#cad-page-1 > footer{
-  margin-top: 0;
+#cad-page-1 > p{
+  margin: auto 0 0 0;
 }
 
 /* Animation */
@@ -324,15 +325,20 @@ video {
   margin-bottom: 0;
 }
 
+#cad-page-2 > img{
+  margin: auto auto 0 auto;
+  max-height: 3em;
+}
+
 #cad-page-2 > div{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 0.5em;
-  margin-top: auto;
+  margin: auto 0 0 0;
 }
 
 #cad-page-2 > div > div > img{
-  max-height: 3.2em;
+  max-height: 3em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -370,7 +376,7 @@ video {
 }
 
 #cad-page-3 > h3{
-  margin-top: auto;
+  margin: auto 0;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -404,7 +410,7 @@ video {
 }
 
 #cad-page-4 > p{
-  margin-top: 1em;
+  margin-top: 1.8em;
 }
 
 #cad-page-4 > img{
@@ -412,7 +418,7 @@ video {
 }
 
 #cad-page-4 > footer{
-  margin-top: 1em;
+  margin-top: 1.8em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -447,8 +453,8 @@ video {
   min-height: 50vh;
 }
 
-#cad-page-5 > p:first-child{
-  margin-top: 1em;
+#cad-page-5 > p{
+  margin-top: 1.8em;
 }
 
 #cad-page-5 > img{
@@ -456,7 +462,7 @@ video {
 }
 
 #cad-page-5 > footer{
-  margin-top: 1em;
+  margin-top: 1.8em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -488,12 +494,8 @@ video {
 
 /* --------------------- PAGE 6 --------------------- */
 
-#cad-page-6{
-  min-height: 80vh;
-}
-
 #cad-page-6 > h3{
-  margin-top: auto;
+  margin: auto 0;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -569,6 +571,7 @@ video {
 
 #cad-page-8 > div > p{
   font-size: 0.7em;
+  font-weight: 400;
 }
 
 .cad-horizontal-population{
@@ -763,7 +766,7 @@ video {
   margin-top: 0;
 }
 
-#cad-page-10 > h3:first-child{
+#cad-page-10 > footer{
   margin-top: auto;
 }
 
@@ -796,8 +799,9 @@ video {
 #cad-page-11 > div{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
-  margin-bottom: auto;
+  grid-row-gap: 4em;
+  grid-column-gap: 1em;
+  margin: auto 0;
 }
 
 #cad-page-11 > div > div > img{
@@ -867,7 +871,7 @@ video {
 
 /* --------------------- PAGE 13 --------------------- */
 
-#cad-page-13   {
+#cad-page-13{
   padding-bottom: 1em;
 }
 
@@ -875,8 +879,12 @@ video {
   margin-top: 0;
 }
 
-#cad-page-13 > h3:first-child{
+#cad-page-13 > h3{
   margin-top: auto;
+}
+
+#cad-page-13 > h2{
+  margin-bottom: auto;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -945,6 +953,10 @@ video {
   margin-top: 0;
 }
 
+#cad-page-15 > footer{
+  margin-top: auto;
+}
+
 /* --- BREAKPOINT 1 --- */
 
 @media (min-width:768px) {
@@ -971,20 +983,21 @@ video {
 
 /* --------------------- PAGE 16 --------------------- */
 
-#cad-page-16 > div:first-child {
-  margin-top: auto;
-}
-
-#cad-page-16 > div:first-child > h3{
-  margin: 1em 0;
-}
-
-#cad-page-16 > div:first-child > img{
+#cad-page-16 > img{
+  margin: 1.8em 0;
   max-height: 4em;
 }
 
+#cad-page-16 > h3{
+  margin: 1em 0;
+}
+
+#cad-page-16 > h2{
+  margin-bottom: auto;
+}
+
 #cad-page-16 > footer{
-  margin-bottom: 1em;
+  margin-bottom: 1.8em;
 }
 
 #cad-page-16 > footer > div{
