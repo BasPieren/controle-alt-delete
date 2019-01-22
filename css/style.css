@@ -845,8 +845,7 @@ video {
 
 #cad-incidents-chart{
   display: block;
-  margin: 0 auto;
-  height: 500px;
+  margin: auto auto 1.8em auto;
 }
 
 /* --- BREAKPOINT 1 --- */
