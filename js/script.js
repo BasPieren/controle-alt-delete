@@ -79,9 +79,11 @@ function incidentsYears() {
 
   var height = 450
   var width = 272
-  var margin = { top: 20, right: 0, bottom: 0, left: 0 }
+  var margin = { top: 20, right: 0, bottom: 30, left: 0 }
 
-  var svg = d3.select('#cad-incidents-chart')
+  var svg = d3.select('#cad-incidents-chart').append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height);
 
   var x = d3
     .scaleBand()
@@ -134,7 +136,7 @@ function incidentsYears() {
 incidentsYears()
 
 function incidentsYearsAni() {
-  var tween = TweenMax.from('#cad-incidents-chart > g > rect', 1, {
+  var tween = TweenMax.from('#cad-incidents-chart > svg > g > rect', 1, {
     height: 0,
     ease: Linear.easeNone
   })
