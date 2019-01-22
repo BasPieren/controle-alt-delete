@@ -134,6 +134,11 @@ a{
   background-color: #e63b23;
 }
 
+video {
+  width: 100%;
+  height: auto;
+}
+
 /* --- BREAKPOINT 1 --- */
 
 @media (min-width:768px) {
@@ -214,11 +219,11 @@ a{
 
 /* --------------------- INTRO --------------------- */
 
-#cad-intro-page{
+/* #cad-intro-page{
   background-image: url(../images/background/background-1.png);
   background-position: center;
   background-size: cover;
-}
+} */
 
 #cad-intro-page > header{
   margin: auto 0 0 0;
@@ -358,11 +363,11 @@ a{
 
 /* --------------------- PAGE 3 --------------------- */
 
-#cad-page-3{
+/* #cad-page-3{
   background-image: url(../images/background/background-4.png);
   background-position: center;
   background-size: cover;
-}
+} */
 
 #cad-page-3 > h3{
   margin-top: auto;
@@ -832,8 +837,7 @@ a{
 
 #cad-incidents-chart{
   display: block;
-  margin: auto;
-  width: 300px;
+  margin: 0 auto;
   height: 500px;
 }
 
@@ -862,6 +866,10 @@ a{
 }
 
 /* --------------------- PAGE 13 --------------------- */
+
+#cad-page-13   {
+  padding-bottom: 1em;
+}
 
 #cad-page-13 > header{
   margin-top: 0;
@@ -898,6 +906,8 @@ a{
 /* --------------------- PAGE 14 --------------------- */
 
 #cad-page-14{
+  padding: 0;
+  min-height: fit-content;
   background-color: #ffffff;
 }
 
@@ -926,6 +936,10 @@ a{
 }
 
 /* --------------------- PAGE 15 --------------------- */
+
+#cad-page-15   {
+  padding-top: 1em;
+}
 
 #cad-page-15 > header{
   margin-top: 0;
@@ -979,7 +993,12 @@ a{
   margin: 2em 0;
 }
 
-#cad-page-16 > footer > div > img{
+#cad-page-16 > footer > div > a{
+  height: 4em;
+  width: 4em;
+}
+
+#cad-page-16 > footer > div > a > img{
   max-height: 4em;
 }
 
