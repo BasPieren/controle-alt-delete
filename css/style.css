@@ -564,134 +564,8 @@ video {
 
 /* --------------------- PAGE 8 --------------------- */
 
-#cad-page-8 > div{
-  margin: 0 auto auto auto;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 0.5fr 1fr;
-  grid-gap: 1.7em;
-  text-align: right;
-}
-
-#cad-page-8 > div > p{
-  font-size: 0.7em;
-  font-weight: 400;
-}
-
-.cad-horizontal-population{
+#cad-page-8 > h3{
   margin: auto 0;
-  height: 5px;
-  background-color: #ffd00a;
-}
-
-.cad-100{
-  width: 100%;
-}
-
-#cad-page-8 > div .cad-100::after{
-  content: '2.331.589';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-95{
-  width: 95%;
-}
-
-#cad-page-8 > div .cad-95::after{
-  content: '1.964.536';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-90{
-  width: 90%;
-}
-
-#cad-page-8 > div .cad-90::after{
-  content: '1.722.247';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-85{
-  width: 85%;
-}
-
-#cad-page-8 > div .cad-85::after{
-  content: '1.692.322';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-60{
-  width: 60%;
-}
-
-#cad-page-8 > div .cad-60::after{
-  content: '1.117.546';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-55{
-  width: 55%;
-}
-
-#cad-page-8 > div .cad-55::after{
-  content: '844.947';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-50{
-  width: 50%;
-}
-
-#cad-page-8 > div .cad-50::after{
-  content: '738.699';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-45{
-  width: 45%;
-}
-
-#cad-page-8 > div .cad-45::after{
-  content: '634.660';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-40{
-  width: 40%;
-}
-
-#cad-page-8 > div .cad-40::after{
-  content: '524.882';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
-}
-
-.cad-30{
-  width: 30%;
-}
-
-#cad-page-8 > div .cad-30::after{
-  content: '469.881';
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #ffd00a;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -720,7 +594,31 @@ video {
 
 /* --------------------- PAGE 9 --------------------- */
 
-#cad-page-9 > div{
+#cad-page-10 > header{
+  margin-bottom: 0;
+}
+
+.cad-horizontal-container-legenda {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cad-horizontal-container-legenda > div{
+  width: 20px;
+  height: 5px;
+  background-color: #ffd00a;
+}
+
+.cad-horizontal-container-legenda > p{
+  margin: 0 0 0 1em;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 0.9em;
+  color: #abdaed;
+}
+
+.cad-horizontal-container{
   margin: 0 auto auto auto;
   width: 100%;
   display: grid;
@@ -729,12 +627,123 @@ video {
   text-align: right;
 }
 
-#cad-page-9 > div > p{
+.cad-horizontal-container > p{
   font-size: 0.7em;
+  font-weight: 400;
+  color: #abdaed;
 }
 
-#cad-page-9 > div .cad-100::after{
-  content: '2.331.589';
+.cad-horizontal-population{
+  margin: auto 0;
+  height: 5px;
+  background-color: #ffd00a;
+}
+
+.cad-100{
+  width: 100%;
+}
+
+.cad-horizontal-container .cad-100::after{
+  content: '3.081.285';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-95{
+  width: 95%;
+}
+
+.cad-horizontal-container .cad-95::after{
+  content: '2.724.603';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-90{
+  width: 90%;
+}
+
+.cad-horizontal-container .cad-90::after{
+  content: '1.828.711';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-85{
+  width: 85%;
+}
+
+.cad-horizontal-container .cad-85::after{
+  content: '1.753.083';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-60{
+  width: 60%;
+}
+
+.cad-horizontal-container .cad-60::after{
+  content: '1.635.992';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-55{
+  width: 55%;
+}
+
+.cad-horizontal-container .cad-55::after{
+  content: '1.607.944';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-50{
+  width: 50%;
+}
+
+.cad-horizontal-container .cad-50::after{
+  content: '738.699';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-45{
+  width: 45%;
+}
+
+.cad-horizontal-container .cad-45::after{
+  content: '634.660';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-40{
+  width: 40%;
+}
+
+.cad-horizontal-container .cad-40::after{
+  content: '524.882';
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #ffd00a;
+}
+
+.cad-30{
+  width: 30%;
+}
+
+.cad-horizontal-container .cad-30::after{
+  content: '469.881';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
   color: #ffd00a;
@@ -766,12 +775,30 @@ video {
 
 /* --------------------- PAGE 10 --------------------- */
 
-#cad-page-10 > header{
-  margin-top: 0;
+#cad-page-10 > header {
+  margin-bottom: 0;
 }
 
-#cad-page-10 > footer{
-  margin-top: auto;
+#cad-page-10 > .cad-horizontal-container-legenda {
+  width: 100%;
+}
+
+#cad-page-10 > .cad-horizontal-container-legenda > img {
+  max-height: 1.5em;
+}
+
+#cad-page-10 > .cad-horizontal-container {
+  grid-row-gap: 0.8em;
+}
+
+#cad-page-10 > .cad-horizontal-container > div {
+  display: flex;
+  justify-content: left;
+}
+
+#cad-page-10 > .cad-horizontal-container > div > img {
+  margin: 0 0.3em;
+  max-height: 1.5em;
 }
 
 /* --- BREAKPOINT 1 --- */
@@ -800,7 +827,93 @@ video {
 
 /* --------------------- PAGE 11 --------------------- */
 
-#cad-page-11 > div{
+#cad-page-11 > header {
+  margin-bottom: 0;
+}
+
+#cad-page-11 > .cad-horizontal-container-legenda {
+  width: 100%;
+}
+
+#cad-page-11 > .cad-horizontal-container-legenda > img {
+  max-height: 1.5em;
+}
+
+#cad-page-11 > .cad-horizontal-container {
+  grid-row-gap: 0.8em;
+}
+
+#cad-page-11 > .cad-horizontal-container > div {
+  display: flex;
+  justify-content: left;
+}
+
+#cad-page-11 > .cad-horizontal-container > div > img {
+  margin: 0 0.3em;
+  max-height: 1.5em;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 12 --------------------- */
+
+#cad-page-12 > header{
+  margin-top: 0;
+}
+
+#cad-page-12 > footer{
+  margin-top: auto;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 13 --------------------- */
+
+#cad-page-13 > div{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 2em;
@@ -808,11 +921,11 @@ video {
   margin: auto 0;
 }
 
-#cad-page-11 > div > div > img{
+#cad-page-13 > div > div > img{
   max-height: 4em;
 }
 
-#cad-page-11 > div > div > p{
+#cad-page-13 > div > div > p{
   margin-top: 0.5em;
   font-size: 0.7em;
 }
@@ -841,7 +954,7 @@ video {
 
 }
 
-/* --------------------- PAGE 12 --------------------- */
+/* --------------------- PAGE 14 --------------------- */
 
 #cad-incidents-chart{
   display: block;
@@ -872,21 +985,21 @@ video {
 
 }
 
-/* --------------------- PAGE 13 --------------------- */
+/* --------------------- PAGE 15 --------------------- */
 
-#cad-page-13{
+#cad-page-15{
   padding-bottom: 1em;
 }
 
-#cad-page-13 > header{
+#cad-page-15 > header{
   margin-top: 0;
 }
 
-#cad-page-13 > h3{
+#cad-page-15 > h3{
   margin-top: auto;
 }
 
-#cad-page-13 > h2{
+#cad-page-15 > h2{
   margin-bottom: auto;
 }
 
@@ -914,9 +1027,9 @@ video {
 
 }
 
-/* --------------------- PAGE 14 --------------------- */
+/* --------------------- PAGE 16 --------------------- */
 
-#cad-page-14{
+#cad-page-16{
   padding: 0;
   min-height: fit-content;
   background-color: #ffffff;
@@ -946,17 +1059,17 @@ video {
 
 }
 
-/* --------------------- PAGE 15 --------------------- */
+/* --------------------- PAGE 17 --------------------- */
 
-#cad-page-15   {
+#cad-page-17   {
   padding-top: 1em;
 }
 
-#cad-page-15 > header{
+#cad-page-17 > header{
   margin-top: 0;
 }
 
-#cad-page-15 > footer{
+#cad-page-17 > footer{
   margin-top: auto;
 }
 
@@ -984,37 +1097,37 @@ video {
 
 }
 
-/* --------------------- PAGE 16 --------------------- */
+/* --------------------- PAGE 18 --------------------- */
 
-#cad-page-16 > img{
+#cad-page-18 > img{
   margin: 1.8em 0;
   max-height: 4em;
 }
 
-#cad-page-16 > h3{
+#cad-page-18 > h3{
   margin: 1em 0;
 }
 
-#cad-page-16 > h2{
+#cad-page-18 > h2{
   margin-bottom: auto;
 }
 
-#cad-page-16 > footer{
+#cad-page-18 > footer{
   margin-bottom: 1.8em;
 }
 
-#cad-page-16 > footer > div{
+#cad-page-18 > footer > div{
   display: flex;
   justify-content: space-around;
   margin: 2em 0;
 }
 
-#cad-page-16 > footer > div > a{
+#cad-page-18 > footer > div > a{
   height: 4em;
   width: 4em;
 }
 
-#cad-page-16 > footer > div > a > img{
+#cad-page-18 > footer > div > a > img{
   max-height: 4em;
 }
 

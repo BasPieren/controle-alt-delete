@@ -1,6 +1,50 @@
 /* ------ SOURCES
 https://beta.observablehq.com/@mbostock/d3-bar-chart
+https://beta.observablehq.com/@mbostock/d3-horizontal-bar-chart
 ------ */
+
+// const dataPolicePopulation = [
+//   {
+//     name: 'Amsterdam',
+//     value: 921205
+//   },
+//   {
+//     name: 'Den Haag',
+//     value: 1753083
+//   },
+//   {
+//     name: 'Midden-Nederland',
+//     value: 1828711
+//   },
+//   {
+//     name: 'Noord-Nederland',
+//     value: 1607944
+//   },
+//   {
+//     name: 'Oost-Brabant',
+//     value: 1328997
+//   },
+//   {
+//     name: 'Oost-Nederland',
+//     value: 3081285
+//   },
+//   {
+//     name: 'Zeeland-West-Brabant',
+//     value: 1367665
+//   },
+//   {
+//     name: 'Limburg',
+//     value: 1003243
+//   },
+//   {
+//     name: 'Noord-Holland',
+//     value: 2724603
+//   },
+//   {
+//     name: 'Rotterdam',
+//     value: 1635992
+//   }
+// ]
 
 var controller = new ScrollMagic.Controller()
 
@@ -44,7 +88,7 @@ function populationUnit() {
   })
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#cad-page-8',
+    triggerElement: '#cad-page-9',
     duration: 250
   })
     .setTween(tween)
@@ -81,9 +125,11 @@ function incidentsYears() {
   var width = 272
   var margin = { top: 20, right: 0, bottom: 30, left: 0 }
 
-  var svg = d3.select('#cad-incidents-chart').append("svg")
-    .attr("width", width + margin.right + margin.left)
-    .attr("height", height);
+  var svg = d3
+    .select('#cad-incidents-chart')
+    .append('svg')
+    .attr('width', width + margin.right + margin.left)
+    .attr('height', height)
 
   var x = d3
     .scaleBand()
