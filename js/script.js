@@ -1,6 +1,6 @@
 /* ------ SOURCES
+http://lucidworks.com/darkdata/
 https://beta.observablehq.com/@mbostock/d3-bar-chart
-https://beta.observablehq.com/@mbostock/d3-horizontal-bar-chart
 ------ */
 
 (function (){
@@ -34,6 +34,7 @@ https://beta.observablehq.com/@mbostock/d3-horizontal-bar-chart
       triggerElement: '#cad-page-2',
       reverse: false
     })
+      // START USE OF SOURCE: http://lucidworks.com/darkdata/
       .on('start', function() {
         var typed = new Typed('.cad-typed', {
           strings: ['17.291.396'],
@@ -41,6 +42,7 @@ https://beta.observablehq.com/@mbostock/d3-horizontal-bar-chart
           showCursor: false
         })
       })
+      // END USE OF SOURCE: http://lucidworks.com/darkdata/
       .addTo(controller)
   }
   typedAnimation()
