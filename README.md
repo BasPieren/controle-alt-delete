@@ -43,7 +43,7 @@ This project makes use of the following packages and technologies:
 * [Prettier](https://www.npmjs.com/package/prettier)
 
 ## Javascript explanation ⚙️
-Here I will explain some of the key elements used in creation of some of the animations.
+Here I will explain some of the general elements used in creation of some of the animations.
 
 ### ScrollMagic
 ScrollMagic allows you to trigger animations when the user reaches a certain part of the screen. Here I use it to fade in every section when the user reaches a `.cad-fade-in` section.
