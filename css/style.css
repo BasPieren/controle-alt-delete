@@ -219,11 +219,11 @@ video {
 
 /* --------------------- INTRO --------------------- */
 
-/* #cad-intro-page{
+#cad-intro-page{
   background-image: url(../images/background/background-1.png);
   background-position: center;
   background-size: cover;
-} */
+}
 
 #cad-intro-page > header{
   margin: auto 0 0 0;
@@ -363,11 +363,11 @@ video {
 
 /* --------------------- PAGE 3 --------------------- */
 
-/* #cad-page-3{
+#cad-page-3{
   background-image: url(../images/background/background-4.png);
   background-position: center;
   background-size: cover;
-} */
+}
 
 #cad-page-3 > h3{
   margin-top: auto;
