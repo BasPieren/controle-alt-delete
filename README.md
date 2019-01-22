@@ -9,14 +9,14 @@ This is the repo for the Controle Alt Delete project.
 * [Description](#description-)
 * [Installing](#installing-)
   * [Packages and technologies](#packages-and-technologies)
-* [Javascript Explanation](#javascript-explanation-)
+* [Javascript explanation](#javascript-explanation-)
 * [Sources](#sources-)
-  * [Honourable Mentions](#honourable-mentions)
+  * [Honourable mentions](#honourable-mentions)
 * [Licence](#licence-)
 
 ## To Do 📌
 This is a list of things in want to do in this project:
-- [X] Use ScrollMagic to create a cool scrolling experience.
+- [X] Use ScrollMagic to create a cool scrolling effects.
 - [X] Use Typed to create typing animations.
 - [ ] Create all data visualisations using D3.
 - [ ] Optimize the webpage for both mobile and desktop.
@@ -40,14 +40,52 @@ This project makes use of the following packages and technologies:
 * [Typed](https://mattboldt.com/demos/typed-js/)
 * [Prettier](https://www.npmjs.com/package/prettier)
 
-## Javascript Explanation ⚙️
+## Javascript explanation ⚙️
+Here I will explain some of the key elements used in creation of some of the animations.
 
+### ScrollMagic
+
+```js
+const classFadeIn = document.getElementsByClassName('cad-fade-in')
+
+for (var i = 0; i < classFadeIn.length; i++) {
+  var tween = TweenMax.from(classFadeIn[i], 0.5, {
+    opacity: 0,
+    ease: Linear.easeNone
+  })
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: classFadeIn[i]
+  })
+    .setTween(tween)
+    .addTo(controller)
+}
+```
+
+### Typed
+
+```js
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#cad-page-2',
+  reverse: false
+})
+  // START USE OF SOURCE: http://lucidworks.com/darkdata/
+  .on('start', function() {
+    var typed = new Typed('.cad-typed', {
+      strings: ['17.291.396'],
+      typeSpeed: 125,
+      showCursor: false
+    })
+  })
+  // END USE OF SOURCE: http://lucidworks.com/darkdata/
+  .addTo(controller)
+```
 
 ## Sources 📚
 * [Lucidworks: The Data That Lies Beneath](http://lucidworks.com/darkdata/)
 * [D3 multi line chart](https://beta.observablehq.com/@mbostock/d3-bar-chart)
 
-### Honourable Mentions
+### Honourable mentions
 * [Help from Jesse Dijkman](https://github.com/jesseDijkman1)
 
 ## Licence 🔓
