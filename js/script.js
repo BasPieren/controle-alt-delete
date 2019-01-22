@@ -20,7 +20,6 @@ function sectionFadeIn() {
       .addTo(controller)
   }
 }
-
 sectionFadeIn()
 
 function populationTotal() {
@@ -36,7 +35,6 @@ function populationTotal() {
     .setTween(tween)
     .addTo(controller)
 }
-
 populationTotal()
 
 function populationUnit() {
@@ -47,12 +45,11 @@ function populationUnit() {
 
   var scene = new ScrollMagic.Scene({
     triggerElement: '#cad-page-8',
-    duration: 350
+    duration: 300
   })
     .setTween(tween)
     .addTo(controller)
 }
-
 populationUnit()
 
 function incidentsYears() {
@@ -105,12 +102,6 @@ function incidentsYears() {
     .domain([0, d3.max(data, d => d.value)])
     .range([height - margin.bottom, margin.top])
 
-  var yAxis = g =>
-    g
-      .attr('transform', `translate(${margin.left},0)`)
-      .call(d3.axisLeft(y))
-      .call(g => g.select('.domain').remove())
-
   svg
     .append('g')
     .attr('fill', '#ffd00a')
@@ -138,11 +129,8 @@ function incidentsYears() {
     .text(d => d.value)
 
   svg.append('g').call(xAxis)
-
-  svg.append('g').call(yAxis)
   // END USE OF SOURCE: https://beta.observablehq.com/@mbostock/d3-bar-chart
 }
-
 incidentsYears()
 
 function incidentsYearsAni() {
@@ -158,5 +146,4 @@ function incidentsYearsAni() {
     .setTween(tween)
     .addTo(controller)
 }
-
 incidentsYearsAni()
