@@ -4,8 +4,7 @@ https://beta.observablehq.com/@mbostock/d3-bar-chart
 Jesse Dijkman
 ------ */
 
-(function (){
-
+;(function() {
   var controller = new ScrollMagic.Controller()
 
   /* --------------------- SECTION FADE IN --------------------- */
@@ -68,13 +67,14 @@ Jesse Dijkman
   /* --------------------- HORIZONTAL BAR ANIMATION --------------------- */
 
   function horizontalBar() {
-    const horizontalBar = document.getElementsByClassName('cad-horizontal-container')
+    const horizontalBar = document.getElementsByClassName(
+      'cad-horizontal-container'
+    )
 
     for (var i = 0; i < horizontalBar.length; i++) {
       // START USE OF SOURCE: Jesse Dijkman
       for (let c in horizontalBar[i].children) {
-        if (horizontalBar[i].children[c].nodeName === "DIV") {
-
+        if (horizontalBar[i].children[c].nodeName === 'DIV') {
           var tween = TweenMax.from(horizontalBar[i].children[c], 1, {
             width: 0,
             ease: Linear.easeNone
@@ -197,5 +197,4 @@ Jesse Dijkman
       .addTo(controller)
   }
   incidentsYearsAni()
-
-})();
+})()
