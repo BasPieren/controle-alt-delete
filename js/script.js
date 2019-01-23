@@ -1,6 +1,7 @@
 /* ------ SOURCES
 http://lucidworks.com/darkdata/
 https://beta.observablehq.com/@mbostock/d3-bar-chart
+Jesse Dijkman
 ------ */
 
 (function (){
@@ -67,21 +68,28 @@ https://beta.observablehq.com/@mbostock/d3-bar-chart
   /* --------------------- POPULATION PER UNIT ANIMATION --------------------- */
 
   function horizontalBar() {
-    const horizontalBar = document.getElementsByClassName('cad-horizontal-population')
+    const horizontalBar = document.getElementsByClassName('cad-horizontal-container')
 
     for (var i = 0; i < horizontalBar.length; i++) {
-      var tween = TweenMax.from(horizontalBar[i], 1, {
-        width: 0,
-        ease: Linear.easeNone
-      })
+      // START USE OF SOURCE: Jesse Dijkman
+      for (let c in horizontalBar[i].children) {
+        if (horizontalBar[i].children[c].nodeName === "DIV") {
 
-      var scene = new ScrollMagic.Scene({
-        triggerElement: horizontalBar[i],
-        offset: -150,
-        duration: 250
-      })
-        .setTween(tween)
-        .addTo(controller)
+          var tween = TweenMax.from(horizontalBar[i].children[c], 1, {
+            width: 0,
+            ease: Linear.easeNone
+          })
+
+          var scene = new ScrollMagic.Scene({
+            triggerElement: horizontalBar[i],
+            offset: -65,
+            duration: 250
+          })
+            .setTween(tween)
+            .addTo(controller)
+        }
+        // END USE OF SOURCE: Jesse Dijkman
+      }
     }
   }
   horizontalBar()
