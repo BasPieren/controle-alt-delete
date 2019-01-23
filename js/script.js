@@ -130,7 +130,7 @@ https://beta.observablehq.com/@mbostock/d3-bar-chart
         .call(d3.axisBottom(x).tickSizeOuter(0))
         .attr('font-family', 'Staatliches', 'sans-serif')
         .attr('font-size', '1.3em')
-        .attr('color', '#e63b23')
+        .attr('color', '#d32422')
 
     var y = d3
       .scaleLinear()
@@ -139,7 +139,7 @@ https://beta.observablehq.com/@mbostock/d3-bar-chart
 
     svg
       .append('g')
-      .attr('fill', '#ffd00a')
+      .attr('fill', '#fff33d')
       .selectAll('rect')
       .data(data)
       .enter()
@@ -151,7 +151,7 @@ https://beta.observablehq.com/@mbostock/d3-bar-chart
 
     svg
       .append('g')
-      .attr('fill', 'white')
+      .attr('fill', '#ffffff')
       .attr('text-align', 'center')
       .style('font', '0.8em Open Sans')
       .selectAll('text')
