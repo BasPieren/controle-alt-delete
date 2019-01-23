@@ -66,20 +66,24 @@ https://beta.observablehq.com/@mbostock/d3-bar-chart
 
   /* --------------------- POPULATION PER UNIT ANIMATION --------------------- */
 
-  function populationUnit() {
-    var tween = TweenMax.from('.cad-horizontal-population', 1, {
-      width: 0,
-      ease: Linear.easeNone
-    })
+  function horizontalBar() {
+    const horizontalBar = document.getElementsByClassName('cad-horizontal-population')
 
-    var scene = new ScrollMagic.Scene({
-      triggerElement: '#cad-page-9',
-      duration: 250
-    })
-      .setTween(tween)
-      .addTo(controller)
+    for (var i = 0; i < horizontalBar.length; i++) {
+      var tween = TweenMax.from(horizontalBar[i], 1, {
+        width: 0,
+        ease: Linear.easeNone
+      })
+
+      var scene = new ScrollMagic.Scene({
+        triggerElement: horizontalBar[i],
+        duration: 250
+      })
+        .setTween(tween)
+        .addTo(controller)
+    }
   }
-  populationUnit()
+  horizontalBar()
 
   /* --------------------- INCIDENTS PER YEAR CHART (D3) --------------------- */
 
