@@ -1208,7 +1208,7 @@ video {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 2em;
   grid-column-gap: 1em;
-  margin: auto 0;
+  margin: auto;
 }
 
 #cad-page-16 > div > div:last-child{
