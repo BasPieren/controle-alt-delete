@@ -925,13 +925,7 @@ video {
 
 /* --------------------- PAGE 12 --------------------- */
 
-#cad-page-12 > header{
-  margin-top: 0;
-}
 
-#cad-page-12 > footer{
-  margin-top: auto;
-}
 
 /* --- BREAKPOINT 1 --- */
 
@@ -959,7 +953,41 @@ video {
 
 /* --------------------- PAGE 13 --------------------- */
 
-#cad-page-13 > div{
+#cad-page-14 > header{
+  margin-top: 0;
+}
+
+#cad-page-14 > footer{
+  margin-top: auto;
+}
+
+/* --- BREAKPOINT 1 --- */
+
+@media (min-width:768px) {
+
+
+
+}
+
+/* --- BREAKPOINT 2 --- */
+
+@media (min-width:1024px) {
+
+
+
+}
+
+/* --- BREAKPOINT 3 --- */
+
+@media (min-width:1440px) {
+
+
+
+}
+
+/* --------------------- PAGE 14 --------------------- */
+
+#cad-page-14 > div{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 2em;
@@ -967,11 +995,11 @@ video {
   margin: auto 0;
 }
 
-#cad-page-13 > div > div > img{
+#cad-page-14 > div > div > img{
   max-height: 4em;
 }
 
-#cad-page-13 > div > div > p{
+#cad-page-14 > div > div > p{
   margin-top: 0.5em;
   font-size: 0.7em;
 }
@@ -1000,7 +1028,7 @@ video {
 
 }
 
-/* --------------------- PAGE 14 --------------------- */
+/* --------------------- PAGE 15 --------------------- */
 
 #cad-incidents-chart{
   display: block;
@@ -1031,21 +1059,21 @@ video {
 
 }
 
-/* --------------------- PAGE 15 --------------------- */
+/* --------------------- PAGE 16 --------------------- */
 
-#cad-page-15{
+#cad-page-16{
   padding-bottom: 1em;
 }
 
-#cad-page-15 > header{
+#cad-page-16 > header{
   margin-top: 0;
 }
 
-#cad-page-15 > h3{
+#cad-page-16 > h3{
   margin-top: auto;
 }
 
-#cad-page-15 > h2{
+#cad-page-16 > h2{
   margin-bottom: auto;
 }
 
@@ -1073,9 +1101,9 @@ video {
 
 }
 
-/* --------------------- PAGE 16 --------------------- */
+/* --------------------- PAGE 17 --------------------- */
 
-#cad-page-16{
+#cad-page-19{
   padding: 0;
   min-height: fit-content;
   background-color: #ffffff;
@@ -1105,17 +1133,17 @@ video {
 
 }
 
-/* --------------------- PAGE 17 --------------------- */
+/* --------------------- PAGE 18 --------------------- */
 
-#cad-page-17   {
+#cad-page-19   {
   padding-top: 1em;
 }
 
-#cad-page-17 > header{
+#cad-page-19 > header{
   margin-top: 0;
 }
 
-#cad-page-17 > footer{
+#cad-page-19 > footer{
   margin-top: auto;
 }
 
@@ -1143,37 +1171,37 @@ video {
 
 }
 
-/* --------------------- PAGE 18 --------------------- */
+/* --------------------- PAGE 19 --------------------- */
 
-#cad-page-18 > img{
+#cad-page-19 > img{
   margin: 1.8em 0;
   max-height: 4em;
 }
 
-#cad-page-18 > h3{
+#cad-page-19 > h3{
   margin: 1em 0;
 }
 
-#cad-page-18 > h2{
+#cad-page-19 > h2{
   margin-bottom: auto;
 }
 
-#cad-page-18 > footer{
+#cad-page-19 > footer{
   margin-bottom: 1.8em;
 }
 
-#cad-page-18 > footer > div{
+#cad-page-19 > footer > div{
   display: flex;
   justify-content: space-around;
   margin: 2em 0;
 }
 
-#cad-page-18 > footer > div > a{
+#cad-page-19 > footer > div > a{
   height: 4em;
   width: 4em;
 }
 
-#cad-page-18 > footer > div > a > img{
+#cad-page-19 > footer > div > a > img{
   max-height: 4em;
 }
 
