@@ -1173,7 +1173,7 @@ video {
 
 /* --------------------- PAGE 19 --------------------- */
 
-#cad-page-19 > img{
+#cad-page-19 > a > img{
   margin: 1.8em 0;
   max-height: 5em;
 }
