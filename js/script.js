@@ -65,7 +65,7 @@ Jesse Dijkman
   }
   populationTotal()
 
-  /* --------------------- POPULATION PER UNIT ANIMATION --------------------- */
+  /* --------------------- HORIZONTAL BAR ANIMATION --------------------- */
 
   function horizontalBar() {
     const horizontalBar = document.getElementsByClassName('cad-horizontal-container')
@@ -82,7 +82,7 @@ Jesse Dijkman
 
           var scene = new ScrollMagic.Scene({
             triggerElement: horizontalBar[i],
-            offset: -65,
+            offset: -100,
             duration: 250
           })
             .setTween(tween)
