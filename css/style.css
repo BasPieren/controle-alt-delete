@@ -989,10 +989,14 @@ video {
 
 #cad-page-14 > div{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 2em;
   grid-column-gap: 1em;
   margin: auto 0;
+}
+
+#cad-page-14 > div > div:last-child{
+  grid-column-end: 3;
 }
 
 #cad-page-14 > div > div > img{
