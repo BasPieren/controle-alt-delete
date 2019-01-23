@@ -9,7 +9,7 @@
   Black: #051922
   Yellow: #fff33d
   Red: #d32422
-  Black (Text): #2d2d2d
+  Black (Text): #000000
 */
 
 /* --------------------- GLOBAL CLASSES --------------------- */
@@ -77,7 +77,7 @@ h3{
   text-transform: uppercase;
   font-weight: lighter;
   letter-spacing: 0.5px;
-  color: #2d2d2d;
+  color: #000000;
 }
 
 h3 > span{
@@ -100,7 +100,7 @@ p{
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9em;
   font-weight: 300;
-  color: #2d2d2d;
+  color: #000000;
 }
 
 .cad-p-white{
@@ -123,7 +123,7 @@ a{
   margin: 0 auto;
   width: 2px;
   height: 100px;
-  background-color: #2d2d2d;
+  background-color: #000000;
 }
 
 .cad-vertical-line-yellow{
