@@ -996,6 +996,41 @@ video {
 
 /* --------------------- PAGE 12 --------------------- */
 
+#cad-page-12 > header{
+  margin-bottom: 0;
+}
+
+#cad-page-12 > .cad-horizontal-container-legenda{
+  margin: auto 0;
+  justify-content: space-between;
+}
+
+#cad-page-12 > .cad-horizontal-container-legenda > p{
+  margin: 0;
+}
+
+#cad-page-12 > .cad-horizontal-container-legenda > img{
+  max-height: 1.5em;
+}
+
+#cad-page-12 > .cad-horizontal-container{
+  margin: 0 auto 1.8em auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: right;
+}
+
+#cad-page-12 > .cad-horizontal-container > img{
+  max-height: 1.5em;
+}
+
+#cad-page-12 > .cad-horizontal-container > h3{
+  font-size: 1em;
+  text-align: center;
+}
 
 
 /* --- BREAKPOINT 1 --- */
@@ -1024,7 +1059,41 @@ video {
 
 /* --------------------- PAGE 13 --------------------- */
 
+#cad-page-13 > header{
+  margin-bottom: 0;
+}
 
+#cad-page-13 > .cad-horizontal-container-legenda{
+  margin: auto 0;
+  justify-content: space-between;
+}
+
+#cad-page-13 > .cad-horizontal-container-legenda > p{
+  margin: 0;
+}
+
+#cad-page-13 > .cad-horizontal-container-legenda > img{
+  max-height: 1.5em;
+}
+
+#cad-page-13 > .cad-horizontal-container{
+  margin: 0 auto 1.8em auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: right;
+}
+
+#cad-page-13 > .cad-horizontal-container > img{
+  max-height: 1.5em;
+}
+
+#cad-page-13 > .cad-horizontal-container > h3{
+  font-size: 1em;
+  text-align: center;
+}
 
 /* --- BREAKPOINT 1 --- */
 
