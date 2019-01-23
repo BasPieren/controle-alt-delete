@@ -77,6 +77,7 @@ https://beta.observablehq.com/@mbostock/d3-bar-chart
 
       var scene = new ScrollMagic.Scene({
         triggerElement: horizontalBar[i],
+        offset: -150,
         duration: 250
       })
         .setTween(tween)
