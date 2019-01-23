@@ -190,7 +190,7 @@ Jesse Dijkman
     })
 
     var scene = new ScrollMagic.Scene({
-      triggerElement: '#cad-page-15',
+      triggerElement: '#cad-page-17',
       duration: 300
     })
       .setTween(tween)
