@@ -7,8 +7,8 @@
   Blue: #6295bc
   Dark Blue: #8cb3bf
   Black: #051922
-  Yellow: #ffd00a
-  Red: #e63b23
+  Yellow: #fff33d
+  Red: #d32422
   Black (Text): #2d2d2d
 */
 
@@ -21,9 +21,9 @@
 
 main{
   background: #b9e2f7;
-  background: -moz-linear-gradient(top, #b9e2f7 0%, #6295bc 50%, #051922 100%);
-  background: -webkit-linear-gradient(top, #b9e2f7 0%,#6295bc 50%,#051922 100%);
-  background: linear-gradient(to bottom, #b9e2f7 0%,#6295bc 50%,#051922 100%);
+  background: -moz-linear-gradient(top, #b9e2f7 0%, #6295bc 50%, #000000 100%);
+  background: -webkit-linear-gradient(top, #b9e2f7 0%,#6295bc 50%,#000000 100%);
+  background: linear-gradient(to bottom, #b9e2f7 0%,#6295bc 50%,#000000 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9e2f7', endColorstr='#051922',GradientType=0 );
 }
 
@@ -64,11 +64,11 @@ h2{
 }
 
 .cad-h2-yellow{
-  color: #ffd00a;
+  color: #fff33d;
 }
 
 .cad-h2-red{
-  color: #e63b23;
+  color: #d32422;
 }
 
 h3{
@@ -81,7 +81,7 @@ h3{
 }
 
 h3 > span{
-  color: #ffd00a;
+  color: #fff33d;
 }
 
 .cad-h3-white{
@@ -89,11 +89,11 @@ h3 > span{
 }
 
 .cad-h3-yellow{
-  color: #ffd00a;
+  color: #fff33d;
 }
 
 .cad-h3-red{
-  color: #e63b23;
+  color: #d32422;
 }
 
 p{
@@ -110,7 +110,7 @@ p{
 a{
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
 }
 
 .cad-scroll-indicator{
@@ -127,11 +127,11 @@ a{
 }
 
 .cad-vertical-line-yellow{
-  background-color: #ffd00a;
+  background-color: #fff33d;
 }
 
 .cad-vertical-line-red{
-  background-color: #e63b23;
+  background-color: #d32422;
 }
 
 video {
@@ -634,7 +634,7 @@ video {
 .cad-horizontal-container-legenda > div{
   width: 20px;
   height: 4px;
-  background-color: #ffd00a;
+  background-color: #fff33d;
 }
 
 .cad-horizontal-container-legenda > p{
@@ -662,7 +662,7 @@ video {
 .cad-horizontal-population{
   margin: auto 0;
   height: 4px;
-  background-color: #ffd00a;
+  background-color: #fff33d;
 }
 
 .cad-100{
@@ -674,7 +674,7 @@ video {
   content: '3.081.285';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -687,7 +687,7 @@ video {
   content: '2.724.603';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -700,7 +700,7 @@ video {
   content: '1.828.711';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -713,7 +713,7 @@ video {
   content: '1.753.083';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -726,7 +726,7 @@ video {
   content: '1.635.992';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -739,7 +739,7 @@ video {
   content: '1.607.944';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -752,7 +752,7 @@ video {
   content: '1.367.665';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -765,7 +765,7 @@ video {
   content: '1.328.997';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -778,7 +778,7 @@ video {
   content: '1.003.243';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
@@ -791,7 +791,7 @@ video {
   content: '921.205';
   font-family: 'Staatliches', sans-serif;
   font-size: 1em;
-  color: #ffd00a;
+  color: #fff33d;
   margin-top: 5px;
 }
 
