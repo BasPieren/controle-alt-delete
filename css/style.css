@@ -953,11 +953,11 @@ video {
 
 /* --------------------- PAGE 13 --------------------- */
 
-#cad-page-14 > header{
+#cad-page-13 > header{
   margin-top: 0;
 }
 
-#cad-page-14 > footer{
+#cad-page-13 > footer{
   margin-top: auto;
 }
 
@@ -1103,7 +1103,7 @@ video {
 
 /* --------------------- PAGE 17 --------------------- */
 
-#cad-page-19{
+#cad-page-17{
   padding: 0;
   min-height: fit-content;
   background-color: #ffffff;
@@ -1135,15 +1135,15 @@ video {
 
 /* --------------------- PAGE 18 --------------------- */
 
-#cad-page-19   {
+#cad-page-18   {
   padding-top: 1em;
 }
 
-#cad-page-19 > header{
+#cad-page-18 > header{
   margin-top: 0;
 }
 
-#cad-page-19 > footer{
+#cad-page-18 > footer{
   margin-top: auto;
 }
 
