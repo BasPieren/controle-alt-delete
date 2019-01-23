@@ -6,10 +6,9 @@
   Light Blue: #b9e2f7
   Blue: #6295bc
   Dark Blue: #8cb3bf
-  Black: #051922
   Yellow: #fff33d
   Red: #d32422
-  Black (Text): #000000
+  Black: #000000
 */
 
 /* --------------------- GLOBAL CLASSES --------------------- */
@@ -20,7 +19,6 @@
 }
 
 main{
-  background: #b9e2f7;
   background: -moz-linear-gradient(top, #b9e2f7 0%, #6295bc 50%, #000000 100%);
   background: -webkit-linear-gradient(top, #b9e2f7 0%,#6295bc 50%,#000000 100%);
   background: linear-gradient(to bottom, #b9e2f7 0%,#6295bc 50%,#000000 100%);
@@ -186,7 +184,7 @@ video {
   }
 
   p{
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
 }
@@ -204,15 +202,15 @@ video {
   }
 
   h2{
-    font-size: 6em;
+    font-size: 5em;
   }
 
   h3{
-    font-size: 2.1em;
+    font-size: 2em;
   }
 
   p{
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 
 }
@@ -354,22 +352,7 @@ video {
 
 @media (min-width:768px) {
 
-  #cad-page-2 > img{
-    margin: auto;
-    max-height: 3em;
-  }
 
-  #cad-page-2 > div{
-    padding: 0 2em;
-  }
-
-  #cad-page-2 > div > div{
-    margin: 0.5em;
-  }
-
-  #cad-page-2 > div > div > img{
-    max-height: 3em;
-  }
 
 }
 
@@ -377,19 +360,7 @@ video {
 
 @media (min-width:1024px) {
 
-  #cad-page-2 > img{
-    margin: auto;
-    max-height: 4em;
-  }
 
-  #cad-page-2 > div{
-    padding: 0 7em;
-    height: 300px;
-  }
-
-  #cad-page-2 > div > div > img{
-    max-height: 4em;
-  }
 
 }
 
@@ -404,10 +375,9 @@ video {
 /* --------------------- PAGE 3 --------------------- */
 
 #cad-page-3{
-  /* background-image: url(../images/background/background-4.png);
+  background-image: url(../images/background/background-4.png);
   background-position: center;
-  background-size: cover; */
-  min-height: 50vh;
+  background-size: cover;
 }
 
 #cad-page-3 > h3{
@@ -480,9 +450,7 @@ video {
 
 @media (min-width:1440px) {
 
-  #cad-page-4 > img{
-    max-height: 250px;
-  }
+
 
 }
 
@@ -524,18 +492,11 @@ video {
 
 @media (min-width:1440px) {
 
-  #cad-page-5 > img{
-    max-height: 250px;
-  }
 
 
 }
 
 /* --------------------- PAGE 6 --------------------- */
-
-#cad-page-6{
-  min-height: 50vh;
-}
 
 #cad-page-6 > h3{
   margin: auto 0;
@@ -593,9 +554,7 @@ video {
 
 @media (min-width:1024px) {
 
-  #cad-page-7 > img{
-    max-height: 500px;
-  }
+
 
 }
 
@@ -608,10 +567,6 @@ video {
 }
 
 /* --------------------- PAGE 8 --------------------- */
-
-#cad-page-8 {
-  min-height: 50vh;
-}
 
 #cad-page-8 > h3{
   margin: auto 0;
@@ -676,7 +631,8 @@ video {
   width: 100%;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  grid-gap: 1.7em;
+  grid-column-gap: 1em;
+  grid-row-gap: 1.5em;
   text-align: right;
 }
 
@@ -801,13 +757,7 @@ video {
 
 @media (min-width:1024px) {
 
-  .cad-horizontal-container-legenda {
-    margin: auto 0 0 0;
-  }
 
-  .cad-horizontal-container {
-    margin: auto 0;
-  }
 
 }
 
@@ -841,10 +791,6 @@ video {
 #cad-page-10 > .cad-horizontal-container .cad-45::after{
   content: '3.378';
   color: #ffffff;
-}
-
-.cad-80{
-  width: 80%;
 }
 
 .cad-75{
@@ -1047,13 +993,9 @@ video {
 }
 
 #cad-page-12 > .cad-horizontal-container{
-  margin: 0 auto 1.8em auto;
-  width: 100%;
-  display: grid;
   grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
   grid-gap: 1em;
   align-items: center;
-  text-align: right;
 }
 
 #cad-page-12 > .cad-horizontal-container > img{
@@ -1070,17 +1012,7 @@ video {
 
 @media (min-width:768px) {
 
-  #cad-page-12 > .cad-horizontal-container-legenda{
-    justify-content: space-around;
-  }
 
-  #cad-page-12 > .cad-horizontal-container-legenda > img{
-    margin: 0 1em 0 auto;
-  }
-
-  #cad-page-12 > .cad-horizontal-container-legenda > p:last-child{
-    margin: 0 auto 0 0;
-  }
 
 }
 
@@ -1215,17 +1147,7 @@ video {
 
 @media (min-width:768px) {
 
-  #cad-page-14 > .cad-horizontal-container-legenda{
-    justify-content: space-around;
-  }
 
-  #cad-page-14 > .cad-horizontal-container-legenda > img{
-    margin: 0 1em 0 auto;
-  }
-
-  #cad-page-14 > .cad-horizontal-container-legenda > p:last-child{
-    margin: 0 auto 0 0;
-  }
 
 }
 
@@ -1294,7 +1216,7 @@ video {
 }
 
 #cad-page-16 > div > div > img{
-  max-height: 4em;
+  max-height: 3.5em;
 }
 
 #cad-page-16 > div > div > p{
