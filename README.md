@@ -2,8 +2,6 @@
 
 This is the repo for the Controle Alt Delete project.
 
-![Controle Alt Delete Screenshot](images/frontend-data-screenshot.png)
-
 ## Table of Contents 🗃
 * [To Do](#to-do-)
 * [Description](#description-)
